@@ -2,27 +2,28 @@
 layout: page
 ---
 
-# Guangzhou Zhijia Co., LTD
+# Cubic
 
 
 
 <br>
 
-**Here is SMARTHOME.**
+**Here is Modized Intelligent Car**
+
+****
 
 <br>
 
 
-![image](images/UIdemo.gif)
+![image](images/auto.mp4)
 
 <br>
 
-<br>
-
-
-![image](images/MyVideo_1.gif)
+![image](images/7.22.mp4)
 
 <br>
+
+![image](images/7.23.mp4)
 
 ## Company Introduction
 
