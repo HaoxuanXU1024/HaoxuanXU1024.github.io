@@ -9,7 +9,7 @@ title: web
 > Philosophy：极简、高效、免费
 
 <center>
-  <img src = "/blogs/web.assets/github-logo.png">
+<img src = "/blogs/web.assets/github-logo.png">
 </center>
 <br>本站点自2022年12月正式发布以来，经历了2次重大修改，如今的单月访客量达到200多，在此感谢各位访客朋友的支持！与此同时，许多朋友也开始通过各种形式来咨询笔者——**如何搭建属于自己的轻量化主页？**
 
@@ -162,7 +162,11 @@ links:
 
 <br>神奇的链接，联系了你和我，让我们相遇在这个博客。当你看到这些文字时，你正在和过去的我进行深度的交流。我很高兴你愿意仔细阅读我的文字，如果你想认识我，欢迎加入我们的Jekyll运营社群，让我们在**三次元**进一步`connect each other`吧！
 
-<br>![image-20230427115029939](web.assets/image-20230427115029939.png)
+<br>![IMG_1138](web.assets/IMG_1138.JPG)
+
+> 欢迎添加微信：lancecai2002
+>
+> 有问题请在交流群中提问哦，谢谢！
 
 <br>回到正题，上面说到，图片媒体的配置，可以通过“相对地址”（亦可以使用绝对地址）
 
@@ -228,4 +232,4 @@ links:
 
 <br>
 
-<p align="right">蔡汉霖于2023/04/28</p>
+<p align="right">蔡汉霖于2023年夏</p>

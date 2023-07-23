@@ -1,21 +1,21 @@
-title: Songning Lai
+title: SMARTHOME
 # tagline: Two roads diverged in woods, I took the one less traveled by.
-description: Two roads diverged in woods, I took the one less traveled by.
+description: SMARTHOME
 #Comment out url when working locally to resolve base urls correctly
-url: https://xll0328.github.io
+url: https://songninglai.github.io/
 
 # Owner/author information
 owner:
-  name: Songning Lai
-  avatar: hanlin.jpg
+  name: SMARTHOME
+  avatar: fav.jpg
 #  bio:
-  email: sonly@mail.sdu.edu.cn
+  email: smarthome@smarthome.cn
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: songninglai
+  twitter: smarthome2023
   # facebook: caihanlin2002
-  github: xll0328
-  linkedin: songning lai
-  scholar: https://scholar.google.com.hk/citations?user=gRXN-rMAAAAJ&hl=zh-CN
+  github: smarthome2023
+  linkedin: samrthome
+  scholar: https://songninglai.github.io/
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -32,17 +32,17 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
+  - title: Company
     url: /
-  - title: Publications
-    url: /publications/
-  - title: Projects
+  - title: Product
     url: /projects/
-  - title: Awards
+  - title: Technology
+    url: /publications/
+  - title: Fiance
     url: /awards/
-  - title: Hobbies
+  - title: Legal
     url: /hobbies/
-  - title: Blogs
+  - title: Forum
     url: /blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

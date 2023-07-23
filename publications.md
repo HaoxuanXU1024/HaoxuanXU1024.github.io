@@ -4,84 +4,66 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-# Publications
+# Product Technology Poster
 
-Lastest Update: 2th June 2023.
+<img src="images/PosterTemplate1_01.png" width = "2150" height = "1600" alt="Zexin Fu" align=center />
 
-## Conference Paper
+<br>
 
-- (Oral & **Best Paper Award**)[Predicting Lysine Phosphoglycerylation Sites using Bidirectional Encoder Representations with Transformers & Protein Feature Extraction and Selection](https://ieeexplore.ieee.org/abstract/document/9979871/)
-<br>**Songning Lai**, Xifeng Hu, Jing Han, Chun Wang, Subhas Mukhopadhyay, Zhi Liu and Lan Ye<br> 2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI). [[pdf]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9979871).--{**IEEE Xplore丨EI Compendex**}
+---
 
-- [Classifying Crime Types using Judgment Documents from Social Media](file/ljq.pdf)
-<br>Haoxuan Xu, Zeyu He, Mengfan Shen, **Songning Lai**, Ziqiang Han and Yifan Peng<br> 2023 4th International Seminar on Artificial Intelligence, Networking and Information Technology (AINIT 2023). [[pdf]](file/ljq.pdf).--{**IEEE Xplore丨EI Compendex**}
-                                                                                
+# Multimodal Sentiment Analysis System
 
-## Under Review Paper
+<img src="images/anhao.png" width = "950" height = "350" alt="Zexin Fu" align=center />
 
-- BERT_PLPS: A BERT-based Model for Predicting Lysine Phosphoglycerylation Sites. [[pdf]](https://assets.researchsquare.com/files/rs-2858313/v1_covered_07d0e57c-bbc3-4bca-9e12-eb9ff6192f04.pdf?c=1683001221
-) <br>**Songning Lai**, Yankun Cao, Pengwei Wang, Lan Ye and Zhi Liu<br>
-Under review in the journal BMC Bioinformatics(**JCR Q2 (IF:3.307), CCF C**).
-- Shared and Private Information Learning in Multimodal Sentiment Analysis with Deep Modal Alignment and Self-supervised Multi-Task Learning. [[pdf]](https://arxiv.org/pdf/2305.08473.pdf) <br>**Songning Lai**, Xifeng Hu, Yulong Li, Zhaoxia Ren, Zhi Liu and Danmin Miao<br>
-Under review in the journal IEEE Transactions on Affective Computing (**JCR Q1(IF:13.99), CCF B**).
-- Multimodal Sentiment Analysis: A Survey. [[pdf]](https://arxiv.org/pdf/2305.07611.pdf) <br>**Songning Lai**, Haoxuan Xu, Xifeng Hu, Zhaoxia Ren and Zhi Liu<br>
-Under review in the journal Displays(**JCR Q1(IF:4.3)**).
-- The invention patent is under examination： 一种赖氨酸磷酸甘油化位点识别方法及系统 
-- Cross-Domain Car Detection Model with Integrated Convolutional Block Attention Mechanism. [[pdf]]([file/MultimodalS.pdf](https://arxiv.org/pdf/2305.20055.pdf)) <br>Haoxuan Xu*, **Songning Lai(co-first author)** and Yang Yang<br>
-Under review in the journal Image and Vision Computing (**JCR Q1(IF:3.86)**).
+<img src="images/xl3.png" width = "950" height = "350" alt="Zexin Fu" align=center />
 
-## Working Paper
+<img src="images/result1.png" width = "950" height = "200" alt="Zexin Fu" align=center />
 
-- Faithful CLIP-based Concept Bottleneck Models（In collaboration with **KAUST**）.--Work hard for **AAAI 2024** in a few months!
-- Towards Consistent Multimodal Explanation via Data Influence （In collaboration with **KAUST**）.--Work hard for **ICLR 2024** in a few months!
+<br>
 
+---
 
+# Interpretability of The System
 
+<img src="images/kjs.png" width = "1400" height = "540" alt="Zexin Fu" align=center />
 
-#  RESEARCH EXPERIENCES
+<img src="images/keshihuaxl4.png" width = "1400" height = "1400" alt="Zexin Fu" align=center />
 
-## Privacy-Awareness, Responsibility and Trustworthy (PART) Lab
+<img src="images/keshihuaxl1.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-2023.4 --- Present
+<img src="images/keshihuaxl5.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-Research Intern, Advisor: [Prof. Di Wang](https://cemse.kaust.edu.sa/cs/people/person/di-wang) ----KAUST
+<img src="images/keshihuaxl6.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-- Faithful CLIP-based Concept Bottleneck Models(In collaboration with KAUST).–Work hard for **AAAI 2024** in a few months!
-- Towards Consistent Multimodal Explanation via Data Influence (In collaboration with KAUST).–Work hard for **ICLR 2024** in a few months!
+<img src="images/keshihuaxl7.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-## Shandong University Intelligent Medical Information Processing Research Center
+<img src="images/keshihuaxl8.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-2022.8 --- Present
+<img src="images/keshihuaxl9.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
 
-Research Intern, Advisor: [Zhi Liu](https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index/538797/list/index.htm) ---Shandong University
+<img src="images/result2.png" width = "831" height = "260" alt="Zexin Fu" align=center />
 
-- Bioinformatics: Involving knowledge in the field of single-cell transcriptomics and spatial transcriptomics. Learn and complete the basic single-cell transcript data analysis process, such as quality control, dimensionality reduction (PCA), clustering and visualization (TSNE, UMAP), cell annotation, functional enrichment analysis, and pseudotime analysis. Protein post-translational modification - lysine phosphorylation and glycosylation site prediction task.
-- Scientific research achievement: IEEE CISP-BMEI 2023 Best Paper Award; a journal under review in the journal BMC Bioinformatics(JCR Q2); an invention patent is under examination.
-- Multimodal sentiment analysis: A journal under review in the journal IEEE Transactions on Affective Computing(JCR Q1); A journal under review in the journal Image and Vision Computing(JCR Q1).
+<br>
 
-## Shandong University Signal Processing and Artificial Intelligence Research Institute
+---
 
-2023.3 --- 2023.6
+# Hardware Acceleration
 
-Research Intern, Advisor: [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index/11881/list/index.htm) ---Shandong University
+<img src="images/fu1.png" width = "694" height = "711" alt="Zexin Fu" align=center />
 
-- Vehicle detection: A comprehensive framework for cross-domain target detection is developed. By fine-tuning the target detector using the image generator in the target domain based on source domain training, high-accuracy cross-domain target detection is achieved in the absence of the target domain, improving mAP by 18.55% over original target detection results.
-- Scientific research achievement: A journal under review in the journal Image and Vision Computing(JCR Q1).
+<img src="images/fu2.png" width = "554" height = "329" alt="Zexin Fu" align=center />
 
-## McMaster University
+<img src="images/fu3.png" width = "950" height = "350" alt="Zexin Fu" align=center />
 
-2022.10 --- 2023.2
+<img src="images/fu4.png" width = "1138" height = "732" alt="Zexin Fu" align=center />
 
-Research Intern, Advisor: [Prof. Xiaolin Wu](https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index/538797/list/index.htm) ---McMaster University, Canada
+<br>
 
-- Mainly working on domain generalization, trying to use all domain generalization algorithms (about 10) to explore graphic perception problems (such as graphic concavity and convexity, and graphic quantity).invention patent is under examination.
+---
+# [Technical Document](publications/images/Smarthome__中文版0709.pdf)
 
-## Human-Machine Intelligence System Research Center
+<br>
 
-2022.1 --- 2022.8
-
-Research Intern, Advisor: [Prof. Dong Xuan](https://web.cse.ohio-state.edu/~xuan.3/) ---Shandong University
-
-- Mainly working on machine vision and robotic arm control, helping graduate students complete their projects: binocular camera recognition, robotic arm grabbing ping pong balls, AGV intelligent cars, etc.
-
+---
 
