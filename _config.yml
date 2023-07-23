@@ -2,20 +2,20 @@ title: SMARTHOME
 # tagline: Two roads diverged in woods, I took the one less traveled by.
 description: SMARTHOME
 #Comment out url when working locally to resolve base urls correctly
-url: https://songninglai.github.io/
+url: https://haoxuanxu1024.github.io/
 
 # Owner/author information
 owner:
-  name: SMARTHOME
+  name: Cubic
   avatar: fav.jpg
 #  bio:
-  email: smarthome@smarthome.cn
+  email: cubic@cubic.cn
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: smarthome2023
+  # twitter: smarthome2023
   # facebook: caihanlin2002
-  github: smarthome2023
-  linkedin: samrthome
-  scholar: https://songninglai.github.io/
+  # github: smarthome2023
+  # linkedin: samrthome
+  # scholar: https://songninglai.github.io/
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -55,7 +55,7 @@ highlighter: rouge
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+# permalink:   /:categories/:title
 
 
 kramdown:
