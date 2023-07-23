@@ -4,41 +4,79 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-## Chinese Blogs
+## <a href="{{ site.url }}/feed.xml">My Blogs</a>
 
-### 2023
+### 2023.06.12
 
-- [关于数学建模竞赛](https://caihanlin.com/blogs/team2023)
-- [极简风个人网站搭建指南](https://caihanlin.com/blogs/web)
+雅思真的很烦躁，这听力是人听的？
 
-### 2022
+### 2023.05.21
 
-- [20岁，宽心且看月中桂](https://caihanlin.com/blogs/20yrs)<br>
-- [Cambridge 线上暑研回忆录](https://caihanlin.com/blogs/cambridge/)<br>
-- [暂停、暂停、暂停](https://caihanlin.com/blogs/stop/)
+很怕没书读，不会要狠狠GAP吧我弗拉！
 
-### 2021
+### 2023.04.28
 
-- [19岁，山高路亦远](https://caihanlin.com/blogs/19yrs)<br>
-- [星野学社实习回忆录](https://caihanlin.com/blogs/star)
+山大摆烂王
 
-### 2020
+### 2023.03.03 
 
-- [18岁，缓慢受锤的黄金年代](https://caihanlin.com/blogs/18yrs)<br>
-- [本科博客，笔记，回忆录](https://mieclance.club/)
+命定的有限尽可永在，不屈的挑战却可须臾或缺。
 
-<br>
+### 2023.01.07
 
-## Leave a Message
+朝斯夕斯，念兹在兹，磨砺以须，及锋而试。
 
-<br>
+### 2022.12.09
 
-{% include disqus.html %} 
+并不爬上山顶才是成功
 
-<br>
+### 2022.11.08
 
-## Web Star History
+好想摆烂尼玛的
 
-[Leave a star if you like it 🥰](https://github.com/GuangLun2000/GuangLun2000.github.io)
+### 2022.11.05
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUFSVkxCRUEwRlRZMjQzb2pDZEs2X01kWFJ3V1BSTkdDV3pnREZNd2VTNmtUWDhlaWVWSzBhdXdzbTRhdzc0UlhXQzdJV1FDTGlrM204amMz#GuangLun2000/GuangLun2000.github.io&Date" frameBorder="0"></iframe>
+手掌就那么大，握不住的东西太多了。
+
+### 2022.11.01
+
+摆烂--平平淡淡过完本科
+
+### 2022.10.02 
+
+10.10前改完稿
+
+### 2022.09.29
+
+10.4前肝完EI文章的实验
+
+### 2022.08.26
+
+回顾一下赵公子
+
+### 2022.06.27
+
+摆
+
+### 2022.06.15
+
+思绪不断阻挡着回忆播放，盲目的追寻仍然空空荡荡，灰蒙蒙的夜晚睡意又不知躲到哪去，一转身孤单已躺在身旁。
+
+### 2022.06.01
+
+六月加油
+
+### 2022.05.12
+
+成为任何我想成为的人
+
+### 2022.04.25
+
+赢唔赢无人知，博到尽我话事
+
+
+### 2022.03.07
+
+阶砖不会拒绝磨损，窗花不可幽禁落霞。
+
+ 
