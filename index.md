@@ -19,7 +19,11 @@ layout: page
 
 <br>
 
+<br>
+
 ![image](images/7.22.mp4)
+
+<br>
 
 <br>
 
