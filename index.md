@@ -10,7 +10,7 @@ layout: page
 
 **BEV**
 
-<img src="images/auto.mp4" width = "600" height = "" alt="图片名称" align=center />
+<img src="images/auto.gif" width = "600" height = "" alt="图片名称" align=center />
 
 **Vehicle Foemation**
 
@@ -18,7 +18,7 @@ layout: page
 
 **Traffic Flow Analysis**
 
-<img src="images/7.23.mp4" width = "600" height = "" alt="图片名称" align=center />
+<img src="images/7.23.gif" width = "600" height = "" alt="图片名称" align=center />
 
 
 
