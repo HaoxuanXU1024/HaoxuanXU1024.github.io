@@ -8,27 +8,16 @@ title: Projects
 
 # Product Display
 
-## SmartClip & SmartAgent
+## Autonomous driving
 
-![image](images/MyVideo_1.gif)
-
-<br>
-
-## SmartVison UI Interface
-
-
-
-
-![image](images/UIdemo.gif)
+![image](images/auto.mp4)
 
 <br>
 
+## UI Interface
 
----
 
-# Concept
-
-需要魏学姐的一个海报
+![image](images/UI.mp4)
 
 <br>
 
@@ -36,8 +25,7 @@ title: Projects
 
 # Selling
 
-
-<img src="images/xiaoshouhaibao.png" width = "1700" height = "2600" alt="Zexin Fu" align=center />
+<img src="images/haibao.jpg" width = "1700" height = "" alt="Zexin Fu" align=center />
 
 <br>
 

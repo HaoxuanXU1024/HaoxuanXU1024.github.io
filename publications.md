@@ -4,19 +4,19 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-# Product Technology Poster
+# Muti-sensor 3D Object Detectation
 
-<img src="images/PosterTemplate1_01.png" width = "2150" height = "1600" alt="Zexin Fu" align=center />
+<img src="images/3D.png" width = "2150" height = "" alt="Zexin Fu" align=center />
 
 <br>
 
 ---
 
-# Multimodal Sentiment Analysis System
+# Cubic materials
 
-<img src="images/anhao.png" width = "950" height = "350" alt="Zexin Fu" align=center />
+<img src="images/cl.png" width = "950" height = "" alt="Zexin Fu" align=center />
 
-<img src="images/xl3.png" width = "950" height = "350" alt="Zexin Fu" align=center />
+
 
 <img src="images/result1.png" width = "950" height = "200" alt="Zexin Fu" align=center />
 
@@ -24,27 +24,9 @@ title: Publications
 
 ---
 
-# Interpretability of The System
+# Application of IoV
 
-<img src="images/kjs.png" width = "1400" height = "540" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl4.png" width = "1400" height = "1400" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl1.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl5.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl6.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl7.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl8.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/keshihuaxl9.png" width = "1000" height = "340" alt="Zexin Fu" align=center />
-
-<img src="images/result2.png" width = "831" height = "260" alt="Zexin Fu" align=center />
-
-<br>
+<img src="images/clw.png" width = "950" height = "" alt="Zexin Fu" align=center /><br>
 
 ---
 
@@ -52,11 +34,9 @@ title: Publications
 
 <img src="images/fu1.png" width = "694" height = "711" alt="Zexin Fu" align=center />
 
-<img src="images/fu2.png" width = "554" height = "329" alt="Zexin Fu" align=center />
 
-<img src="images/fu3.png" width = "950" height = "350" alt="Zexin Fu" align=center />
 
-<img src="images/fu4.png" width = "1138" height = "732" alt="Zexin Fu" align=center />
+
 
 <br>
 
