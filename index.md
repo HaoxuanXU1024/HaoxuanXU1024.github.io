@@ -10,53 +10,36 @@ layout: page
 
 **Here is Modized Intelligent Car**
 
-****
-
-<br>
-
 
 ![image](images/auto.mp4)
 
-<br>
-
-<br>
-
 ![image](images/7.22.mp4)
-
-<br>
-
-<br>
 
 ![image](images/7.23.mp4)
 
 ## Company Introduction
 
-**Guangzhou Zhijia Co., Ltd. is a company dedicated to the development and production of whole-house intelligent systems. We focus on providing innovative products and solutions for elderly people living alone, with a mission to care for their physical and mental health.
-Our products cover many fields such as emotion recognition and health monitoring, aiming to help elderly people living alone enjoy a more convenient, safe and comfortable life. By combining the latest technology and intelligent equipment, we are committed to providing a better living environment and more comprehensive health management for the elderly.**
+**Cubic are a smart connected vehicle manufacturing company based on autonomous driving and vehicle-to-everything (V2X) technology. Our mission is to address the urban commuting challenges of the future in the field of intelligent transportation. We aspire to become a leading force in the autonomous driving industry, and we embrace the values of social responsibility,  people-oriented approach, and sustainable development. Inspired by modular cubic elements, we have named our company "Cubic Modular Intelligent Vehicles Ltd.," combining intelligent connected vehicles as our core focus.**
 
-<br>
+![image-20230725004211057](/Users/xuanxuan/Library/Application Support/typora-user-images/image-20230725004211057.png)
 
 ---
 
 ## Company Culture
 
-**With the mission of caring for the elderly living alone, we drive the research and development and promotion of whole-house intelligent system products through innovative technology. Team work is our core value, we put the user experience first principle, always reliable. We encourage our employees to continue to learn and grow, while taking social responsibility and actively participating in public welfare activities. Our goal is to provide a convenient, safe and comfortable living environment for elderly people living alone, so that they can feel care and warmth. By adhering to these values, we continue to innovate and bring more well-being and value to the elderly living alone and to society.**
-
-<br>
+**Our company's culture is centered on innovation, responsibility, and people-centricity. As a smart connected vehicle manufacturer specializing in autonomous driving and vehicle-to-everything (V2X) technology, we aim to address future challenges in intelligent transportation and urban commuting.**
 
 ---
 
-# We are looking for people with lofty ideals!!!
+# 
 
-
-<img src="images/zhaomu.png" width = "750" height = "1300" alt="Zexin Fu" align=center />
+<img src="images/haibao.jpg" width = "750" height = "" alt="Zexin Fu" align=center />
 
 <br>
 
 ---
 
 ## Introduction of Board Members
-
 
  <img src="images/傅学长.jpg" width = "300" height = "300" alt="Zexin Fu" align=center />
  <img src="images/fump.png" width = "375" height = "200" alt="Zexin Fu" align=center />
