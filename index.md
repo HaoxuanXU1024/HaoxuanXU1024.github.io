@@ -8,9 +8,15 @@ layout: page
 
 **Here is Modized Intelligent Car**
 
+**BEV**
+
 <img src="images/auto.mp4" width = "600" height = "" alt="图片名称" align=center />
 
+**Vehicle Foemation**
+
 <img src="images/7.22.mp4" width = "600" height = "" alt="图片名称" align=center />
+
+**Traffic Flow Analysis**
 
 <img src="images/7.23.mp4" width = "600" height = "" alt="图片名称" align=center />
 
@@ -30,7 +36,7 @@ layout: page
 
 ---
 
-# 
+
 
 <img src="images/haibao.jpg" width = "750" height = "" alt="Zexin Fu" align=center />
 
@@ -72,11 +78,20 @@ Know More about me with Numbers：
 
 <img src="images/ll.png" width = "300" height = "300" alt="ll" align=center />
 
-### 
+### Name: Chen Liangliang
+Position: CFO (Chief Financial Officer)
+Major: Public Finance
+Work content: Enterprise strategic design, financing plan, and government cooperation.
+What to do in the project: The project aims to clarify the corporate values and social values that need to be realized. It also involves designing the cooperation mode between the company and the government, as well as the equity structure of the company group.
 
 <img src="images/zx.png" width = "300" height = "300" alt="Weilin Ruan" align=center />
 
-### 
+### Name: Zixuan Chen
+
+Position: CTO-web
+Major: Computer Science and TechnologyJob Description: Responsible for leading the research and development direction of 6G+ vehicle-to-vehicle communication technology; taking charge of the development of both the vehicle's supporting client and server applications; driving the implementation of big data technology in vehicle platooning and vehicle-to-vehicle communication.
+
+Tasks in the Project: Participating in the preparation of technical documentation, including feasibility analysis and technical implementation of 6G, edge computing, big data, and their application in vehicle platooning and vehicle-to-vehicle communication; based on research findings, designing project timelines and creating Gantt charts; designing and developing the user interface (UI) demo for vehicle central control panel and mobile client; contributing to the technical part of the presentation materials for the project's roadshow.
 
 <img src="images/rg.png" width = "300" height = "300" alt="rg" align=center />
 
