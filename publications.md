@@ -32,8 +32,6 @@ title: Publications
 
 # Hardware Acceleration
 
-<img src="images/fu1.png" width = "694" height = "711" alt="Zexin Fu" align=center />
-
 
 
 

@@ -60,7 +60,7 @@ layout: page
 
 <img src="images/jw.png" width = "300" height = "300" alt="Qianjie Wei" align=center />
 
-### 
+### Position：CIO·李靖雯  LI JINGWEN                                                                   Education：Anhui University                                                                   Major：Applied Statistics                                                                              E-mail：ljw15512135286@163.comself-evaluation： skilled in using R, Matlab, Excel, Spss, visio and other software for data analysis. Ability to write bilingual papers and read English literature independently.  good at summary thinking, time management planning, teamwork, analysis and comprehensive decision-making, and strong drive.
 
 <img src="images/xx.png" width = "300" height = "300" alt="Songning Lai" align=center />
 
