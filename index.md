@@ -6,7 +6,7 @@ layout: page
 
 
 
-**Here is Modized Intelligent Car**
+**Here is Modular Intelligent Car**
 
 **BEV**
 
@@ -24,7 +24,7 @@ layout: page
 
 ## Company Introduction
 
-**Cubic are a smart connected vehicle manufacturing company based on autonomous driving and vehicle-to-everything (V2X) technology. Our mission is to address the urban commuting challenges of the future in the field of intelligent transportation. We aspire to become a leading force in the autonomous driving industry, and we embrace the values of social responsibility,  people-oriented approach, and sustainable development. Inspired by modular cubic elements, we have named our company "Cubic Modular Intelligent Vehicles Ltd.," combining intelligent connected vehicles as our core focus.**
+**Cubic is a smart connected vehicle manufacturing company based on autonomous driving and vehicle-to-everything (V2X) technology. Our mission is to address the urban commuting challenges of the future in the field of intelligent transportation. We aspire to become a leading force in the autonomous driving industry, and we embrace the values of social responsibility,  people-oriented approach, and sustainable development. Inspired by modular cubic elements, we have named our company "Cubic Modular Intelligent Vehicles Ltd.," combining intelligent connected vehicles as our core focus.**
 
 <img src="images/car.png" width = "750" height = "" alt="car" align=center />
 
