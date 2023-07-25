@@ -10,12 +10,15 @@ layout: page
 
 **Here is Modized Intelligent Car**
 
+<br>
 
-![image](images/auto.mp4)
+​          <img src="images/auto.mp4" width = "600" height = "" alt="图片名称" align=center />
 
-![image](images/7.22.mp4)
+<img src="images/7.22.mp4" width = "600" height = "" alt="图片名称" align=center />
 
-![image](images/7.23.mp4)
+<img src="images/7.23.mp4" width = "600" height = "" alt="图片名称" align=center />
+
+
 
 ## Company Introduction
 
