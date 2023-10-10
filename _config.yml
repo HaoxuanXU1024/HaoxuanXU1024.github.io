@@ -1,21 +1,21 @@
-title: Cubic
+title: Songning Lai
 # tagline: Two roads diverged in woods, I took the one less traveled by.
-description: Cubic
+description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
-url: https://haoxuanxu1024.github.io/
+url: https://xll0328.github.io
 
 # Owner/author information
 owner:
-  name: Cubic
-  avatar: fav.jpg
+  name: Songning Lai
+  avatar: hanlin.jpg
 #  bio:
-  email: cubic@cubic.cn
+  email: sonly@mail.sdu.edu.cn
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  # twitter: smarthome2023
+  twitter: songninglai
   # facebook: caihanlin2002
-  github: Cubic2023
-  linkedin: Cubic
-  # scholar: https://songninglai.github.io/
+  github: xll0328
+  linkedin: songning lai
+  scholar: https://scholar.google.com.hk/citations?user=gRXN-rMAAAAJ&hl=zh-CN
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
@@ -32,17 +32,17 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Company
+  - title: About Me
     url: /
-  - title: Product
-    url: /projects/
-  - title: Technology
+  - title: Publications
     url: /publications/
-  - title: Fiance
+  - title: Projects
+    url: /projects/
+  - title: Awards
     url: /awards/
-  - title: Legal
+  - title: Hobbies
     url: /hobbies/
-  - title: Forum
+  - title: Blogs
     url: /blogs/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -55,7 +55,7 @@ highlighter: rouge
 
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-# permalink:   /:categories/:title
+permalink:   /:categories/:title
 
 
 kramdown:
