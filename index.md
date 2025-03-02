@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://HaoxuanXU1024.github.io/haoxuan.jpg" class="floatpic" style="width: 100px; height: auto;">
+<img src="https://HaoxuanXU1024.github.io/haoxuan.jpg" class="floatpic" style="width: 150px; height: auto;">
 
 Here is **Haoxuan Xu (Harrison, 徐浩轩)**.<br>
 
