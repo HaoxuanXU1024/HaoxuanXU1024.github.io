@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/haoxuan.jpg" class="floatpic">
+<img src="https://github.com/HaoxuanXU1024/HaoxuanXU1024.github.io/blob/main/haoxuan.jpg" class="floatpic">
 
 Here is **Haoxuan Xu (Harrison, 徐浩轩)**.<br>
 
@@ -18,7 +18,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## Research Interests
 
-- [Internet of Everything](https://scholar.google.com/citations?view_op=search_authors&hl=zh-CN&mauthors=label:internet_of_everything)
+
 - Vision and Language Navigation
 - Computer Vision
 
