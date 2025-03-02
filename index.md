@@ -8,21 +8,21 @@ layout: page
 
 Here is **Haoxuan Xu (Harrison, 徐浩轩)**.<br>
 
-I am a MPhil student in System Hub/ROAS Trust at the the Hong Kong University of Science and Technology(Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage), before this, I graduated from Shandong University in the School of Information Science and Engineering([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)) supervised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm)
-My research interest lies in Vision and Language Navigation(vln), Computer Vision. 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
+I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)) where I was supervised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+
+
 
 <!-- **<font color="#990000">I am actively seeking a PhD position for 2026 Fall admission. If you have any information, please contact me. Thank you!</font>** -->
 
----
 
 ## Research Interests
-
 
 - Vision and Language Navigation
 - Computer Vision
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the Machine Learning and its applications in Embodied AI. In a word, advanced technologies like AI and Robot positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+My research interests lie in ​Vision-and-Language Navigation (VLN)​ and ​computer vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
+
+If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 
 ---
 <!-- 
