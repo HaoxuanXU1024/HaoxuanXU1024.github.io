@@ -56,6 +56,19 @@ table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
   font-size: 1.2em;
   color: #333;
 }
+.avatar-container {
+  width: 150px;  /* 设置容器宽度 */
+  height: 150px; /* 相同的高度创建一个正方形容器 */
+  margin: 0 auto 15px;
+  overflow: hidden;
+  border-radius: 10px; /* 稍微的圆角，不是完全的圆形或椭圆 */
+}
+.bio-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 关键属性：保持图像比例并填满容器 */
+  display: block;
+}
 .drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
 html{font:normal 112.5%/1.65 serif;}
 body{word-wrap:normal;color:#333332;}
