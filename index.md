@@ -28,33 +28,29 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ### Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism
 
-## Image and Vision Computing (JCR Q1, IF:4.7 | CCF-C)
-
-<div style="display: flex; gap: 30px; margin: 20px 0;">
+<div style="display: flex; align-items: center; gap: 10px; margin: 20px 0;">
+  <!-- 左侧图片 -->
   <div style="flex: 45%">
-  
-
-![Model Architecture](https://HaoxuanXU1024.github.io/Iimages/CDCDMA.jpg)  
-*Model Architecture of CDCMA*
-
+    <img src="https://HaoxuanXU1024.github.io/images/CDCDMA.jpg" 
+         alt="Model Architecture"
+         style="max-width: 100%; display: block;">
+    <p style="text-align: center; color: #666; margin-top: 8px;">
+      <em>Model Architecture of CDCMA</em>
+    </p>
   </div>
+
+  <!-- 右侧内容 -->
   <div style="flex: 55%">
+    ​**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang<br>
+    ​**Image and Vision Computing** (JCR Q1 (IF:4.7) CCF C)
 
-**Authors**: **Haoxuan Xu†**, Songnung Lai†, Yang Yang, 
-
-**Conference**: *Image and Vision Computing*  
-![CCF-C](https://img.shields.io/badge/CCF_Rating-C-blue) 
-![JCR-Q1](https://img.shields.io/badge/JCR_Q1-IF%204.7-brightgreen)  
-### Abstract
-We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
-1. Complete cross-domain detection framework
-2. Unpaired target domain image generation with car light emphasis
-3. GIOU loss optimization
-4. Dual-head CBAM architecture
-
+    We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
+    1. Complete cross-domain detection framework
+    2. Unpaired target domain image generation with car light emphasis
+    3. GIOU loss optimization
+    4. Dual-head CBAM architecture
   </div>
 </div>
-
 ---
 
 
