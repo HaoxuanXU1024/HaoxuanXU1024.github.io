@@ -53,11 +53,24 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## Internships
 
-- **Image Algorithm Intern (2023.11 – 2024.4)** at [DJI](https://www.dji.com/cn)  
-- **Research Intern (2023.12 – 2024.03)** at KAUST  
-- **Outstanding Graduate of Shandong University** (Outstanding Volunteer, total volunteer time over 200h)
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div>Image Algorithm Intern (2023.11 – 2024.4)</div>
+  <div>at <a href="https://www.dji.com/cn">DJI</a></div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div>Research Intern (2023.12 – 2024.03)</div>
+  <div>at KAUST</div>
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+  <div>Outstanding Volunteer of Shandong University</div>
+  <div>(volunteer time over 200h)</div>
+</div>
 
 ---
+
 <!-- 
 ## News and Updates
 
