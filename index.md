@@ -35,23 +35,24 @@ If you are interested in any aspect of me, I am always open to discussions and c
          alt="Model Architecture"
          style="max-width: 100%; display: block;">
     <p style="text-align: center; color: #666; margin-top: 8px;">
-      <em>Model Architecture of CDCMA</em>
-    </p>
+      <!-- <em>Model Architecture of CDCMA</em>
+    </p> -->
   </div>
 
   <!-- 右侧内容 -->
   <div style="flex: 55%">
-    ​**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang<br>
-    ​**Image and Vision Computing** (JCR Q1 (IF:4.7) CCF C)
 
-    We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
-    1. Complete cross-domain detection framework
-    2. Unpaired target domain image generation with car light emphasis
-    3. GIOU loss optimization
-    4. Dual-head CBAM architecture
+  ​**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang<br>
+  ​**Image and Vision Computing** (JCR Q1 (IF:4.7) CCF C)
+
+  We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
+  1. Complete cross-domain detection framework
+  2. Unpaired target domain image generation with car light emphasis
+  3. GIOU loss optimization
+  4. Dual-head CBAM architecture
+
   </div>
 </div>
----
 
 
 ## Honors and Awards
