@@ -26,7 +26,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## Publication
 
-### Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism
+### [Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism](https://www.sciencedirect.com/science/article/pii/S0262885623002081)
 
 <div align="center">
   <img src="https://HaoxuanXU1024.github.io/images/CDCDMA.jpg" 
@@ -42,7 +42,6 @@ If you are interested in any aspect of me, I am always open to discussions and c
 2. ​**Domain Adaptation** - Unpaired target domain image generation with car light emphasis
 3. ​**Loss Optimization** - GIOU loss function enhancement
 4. ​**Attention Mechanism** - Dual-head CBAM architecture design
-
 
 
 ## Honors and Awards
