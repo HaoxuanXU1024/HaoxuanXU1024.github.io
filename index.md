@@ -24,6 +24,53 @@ My research interests lie in ​Vision-and-Language Navigation (VLN)​ and ​c
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 
+## Publications
+
+### Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism
+
+## Image and Vision Computing (JCR Q1, IF:4.7 | CCF-C)
+
+<div style="display: flex; gap: 30px; margin: 20px 0;">
+  <div style="flex: 45%">
+  
+
+![Model Architecture](https://HaoxuanXU1024.github.io/Iimages/CDCDMA.jpg)  
+*Model Architecture of CDCMA*
+
+  </div>
+  <div style="flex: 55%">
+
+**Authors**: **Haoxuan Xu†**, Songnung Lai†, Yang Yang, 
+
+**Conference**: *Image and Vision Computing*  
+![CCF-C](https://img.shields.io/badge/CCF_Rating-C-blue) 
+![JCR-Q1](https://img.shields.io/badge/JCR_Q1-IF%204.7-brightgreen)  
+### Abstract
+We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
+1. Complete cross-domain detection framework
+2. Unpaired target domain image generation with car light emphasis
+3. GIOU loss optimization
+4. Dual-head CBAM architecture
+
+  </div>
+</div>
+
+---
+
+
+## Honors and Awards
+
+- Outstanding Graduate of Shandong University
+- First Prize in Shandong Province for the National College Student Mathematical Modeling Competition
+- Second Prize in the 14th National College Student Mathematics Competition
+
+
+## Internships
+
+- **Image Algorithm Intern (2023.11 – 2024.4)** at [DJI](https://www.dji.com/cn)  
+- **Research Intern (2023.12 – 2024.03)** at KAUST  
+- **Outstanding Graduate of Shandong University** (Outstanding Volunteer, total volunteer time over 200h)
+
 ---
 <!-- 
 ## News and Updates
