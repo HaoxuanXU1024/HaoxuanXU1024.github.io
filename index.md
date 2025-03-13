@@ -24,35 +24,25 @@ My research interests lie in ​Vision-and-Language Navigation (VLN)​ and ​c
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 
-## Publications
+## Publication
 
 ### Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism
 
-<div style="display: flex; align-items: center; gap: 10px; margin: 20px 0;">
-  <!-- 左侧图片 -->
-  <div style="flex: 45%">
-    <img src="https://HaoxuanXU1024.github.io/images/CDCDMA.jpg" 
-         alt="Model Architecture"
-         style="max-width: 100%; display: block;">
-    <p style="text-align: center; color: #666; margin-top: 8px;">
-      <!-- <em>Model Architecture of CDCMA</em>
-    </p> -->
-  </div>
-
-  <!-- 右侧内容 -->
-  <div style="flex: 55%">
-
-  ​**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang<br>
-  ​**Image and Vision Computing** (JCR Q1 (IF:4.7) CCF C)
-
-  We propose a Cross-Domain Car Detection model with integrated Convolutional Block Attention mechanism (CDCMA), featuring:
-  1. Complete cross-domain detection framework
-  2. Unpaired target domain image generation with car light emphasis
-  3. GIOU loss optimization
-  4. Dual-head CBAM architecture
-
-  </div>
+<div align="center">
+  <img src="https://HaoxuanXU1024.github.io/images/CDCDMA.jpg" 
+       alt="Model Architecture" 
+       width="85%" 
+       style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
 </div>
+
+**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang  
+**Journal**: _Image and Vision Computing_ (JCR Q1, IF:4.7 | CCF-C)
+
+1. ​**Complete Framework** - Integrated cross-domain detection architecture
+2. ​**Domain Adaptation** - Unpaired target domain image generation with car light emphasis
+3. ​**Loss Optimization** - GIOU loss function enhancement
+4. ​**Attention Mechanism** - Dual-head CBAM architecture design
+
 
 
 ## Honors and Awards
