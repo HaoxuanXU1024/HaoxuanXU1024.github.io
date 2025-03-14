@@ -24,7 +24,7 @@ My research interests lie in ​Vision-and-Language Navigation (VLN)​ and ​c
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 
-## Publication
+## Publications
 
 ### [Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism](https://www.sciencedirect.com/science/article/pii/S0262885623002081)
 
@@ -38,11 +38,26 @@ If you are interested in any aspect of me, I am always open to discussions and c
 **Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang  
 **Journal**: _Image and Vision Computing_ (JCR Q1, IF:4.7 | CCF-C)
 
+We propose a Cross-Domain Car Detection Model with an integrated convolutional block Attention mechanism (CDCDMA) with the following contributions:
 1. ​**Complete Framework** - Integrated cross-domain detection architecture
 2. ​**Domain Adaptation** - Unpaired target domain image generation with car light emphasis
 3. ​**Loss Optimization** - GIOU loss function enhancement
 4. ​**Attention Mechanism** - Dual-head CBAM architecture design
 
+### [Multimodal Sentiment Analysis: A Survey](https://www.sciencedirect.com/science/article/pii/S0141938223001968)
+
+<div align="center">
+  <img src="https://HaoxuanXU1024.github.io/images/Multimodal_survey.jpg" 
+       alt="Model Architecture" 
+       width="85%" 
+       style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
+</div>
+
+**Authors**: Songning Lai, Xifeng Hu, **Haoxuan Xu**, Zhaoxia Ren~ and Zhi Liu~  
+**Journal**: _Displays_ (JCR Q1 (IF: 4.3))
+
+- This review provides an overview of multimodal sentiment analysis, covering its definition, history, recent datasets, advanced models, challenges, and future prospects, offering guidance on promising research directions. 
+- The review aims to support researchers in developing more effective models in this rapidly evolving field.
 
 ## Honors and Awards
 
