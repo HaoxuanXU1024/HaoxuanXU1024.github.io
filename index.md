@@ -20,6 +20,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 - Vision and Language Navigation
 - Computer Vision
 
+
 My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Computer Vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
@@ -76,10 +77,9 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ## Honors and Awards
 
-- Outstanding Graduate of Shandong University
 - First Prize in Shandong Province for the National College Student Mathematical Modeling Competition
 - Second Prize in the 14th National College Student Mathematics Competition
-
+- Outstanding Graduate of Shandong University
 
 ## Internships
 
