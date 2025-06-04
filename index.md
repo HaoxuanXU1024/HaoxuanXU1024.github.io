@@ -61,7 +61,9 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 - The review aims to support researchers in developing more effective models in this rapidly evolving field.
 
 ## Project
+
 ### Research and Development of Embodied AI-based Multi-terrain Service Robot.（RBM Group Project）
+
 <div align="center">
   <img src="https://HaoxuanXU1024.github.io/images/667.gif" 
        alt="Project Demo" 
