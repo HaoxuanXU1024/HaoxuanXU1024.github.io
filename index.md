@@ -20,7 +20,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 - Vision and Language Navigation
 - Computer Vision
 
-My research interests lie in ​Vision-and-Language Navigation (VLN)​ and ​computer vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
+My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Computer Vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 
@@ -58,6 +58,21 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 - This review provides an overview of multimodal sentiment analysis, covering its definition, history, recent datasets, advanced models, challenges, and future prospects, offering guidance on promising research directions. 
 - The review aims to support researchers in developing more effective models in this rapidly evolving field.
+
+## Project
+### Research and Development of Embodied AI-based Multi-terrain Service Robot.（RBM Group Project）
+<div align="center">
+  <img src="https://HaoxuanXU1024.github.io/images/667.gif" 
+       alt="Project Demo" 
+       width="85%" 
+       style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
+</div>
+
+- Used ConceptGraph for open-vocabulary scene mapping.
+- Employed CLIP and GPT4 for object description and retrieval.
+- Implemented optimized A* and KD-Tree for path planning.
+- Deployed system on Songling chassis for sim-to-real transition.
+- Developed a website for robot-server-user communication.
 
 ## Honors and Awards
 
