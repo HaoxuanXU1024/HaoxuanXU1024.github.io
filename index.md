@@ -8,7 +8,9 @@ layout: page
 
 Here is **Haoxuan Xu (Harrison, 徐浩轩)**.<br>
 
-I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)) where I was supervised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)).
+
+<!-- where I was supervised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm). -->
 
 
 
@@ -19,6 +21,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 
 - Vision and Language Navigation
 - Computer Vision
+- Mobile VLA
 
 
 My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Computer Vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
@@ -45,6 +48,22 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 3. ​**Loss Optimization** - GIOU loss function enhancement
 4. ​**Attention Mechanism** - Dual-head CBAM architecture design
 
+### [How did the Chinese Public Discuss the 2023 Türkiye-Syria Earthquake and the Humanitarian Response on Social Media? A Topical and Sentimental Analysis](https://link.springer.com/article/10.1007/s13753-025-00641-6)
+<div align="center">
+  <img src="https://HaoxuanXU1024.github.io/images/emotion.jpg" 
+       alt="Model Architecture" 
+       width="85%" 
+       style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
+</div>
+
+**Authors**: Mengfan Shen, **Haoxuan Xu**, Hongbing Liu and Ziqiang Han~  
+**Journal**: _International Journal of Disaster Risk Science_ (JCR Q1 (IF: 5.0))
+
+- This study applies topic modeling and sentiment analysis to Weibo posts about the 2023 Türkiye-Syria Earthquake, identifying key themes and emotions.
+
+- It demonstrates the use of advanced natural language processing techniques to analyze public discourse on international disaster response.
+
+
 ### [Multimodal Sentiment Analysis: A Survey](https://www.sciencedirect.com/science/article/pii/S0141938223001968)
 
 <div align="center">
@@ -59,6 +78,21 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 - This review provides an overview of multimodal sentiment analysis, covering its definition, history, recent datasets, advanced models, challenges, and future prospects, offering guidance on promising research directions. 
 - The review aims to support researchers in developing more effective models in this rapidly evolving field.
+
+### [MG-KG: Unsupervised video anomaly detection based on motion guidance and knowledge graph](https://www.sciencedirect.com/science/article/pii/S026288562500232X)
+
+<div align="center">
+  <img src="https://HaoxuanXU1024.github.io/images/MG_KG.jpg" 
+       alt="Model Architecture" 
+       width="85%" 
+       style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
+</div>
+
+**Authors**: Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~  
+**Journal**: _Image and Vision Computing_ (JCR Q1, IF:4.7 | CCF-C)
+
+- Addresses unsupervised VAD’s weak spatio-temporal linkage and limited interpretability by unifying motion-guided prediction/reconstruction with knowledge-graph retrieval.
+- Delivers competitive SOTA on Ped2, Avenue, and ShanghaiTech, aided by effective enhancement strategies.
 
 ## Project
 
@@ -79,6 +113,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ## Honors and Awards
 
+- Postgraduate Studentship (PGS) Award from Hong Kong University of Science and Technology (Guangzhou)
 - First Prize in Shandong Province for the National College Student Mathematical Modeling Competition
 - Second Prize in the 14th National College Student Mathematics Competition
 - Outstanding Graduate of Shandong University
