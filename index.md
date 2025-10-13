@@ -39,7 +39,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
        style="border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0;">
 </div>
 
-**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang  
+**Authors**: ​**Haoxuan Xu†**, Songnung Lai†, Yang Yang~  
 **Journal**: _Image and Vision Computing_ (JCR Q1, IF:4.7 | CCF-C)
 
 We propose a Cross-Domain Car Detection Model with an integrated convolutional block Attention mechanism (CDCDMA) with the following contributions:
