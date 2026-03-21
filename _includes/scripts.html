@@ -7,9 +7,7 @@
 (function() {
   if (window.innerWidth <= 768) return;
 
-  /* ════════════════════════════════════════
-     CLICK: Sparkle Burst
-  ════════════════════════════════════════ */
+  /* ── Click: Sparkle Burst ── */
   document.addEventListener('click', function(e) {
     var colors = ['#6394e7', '#93b5f5', '#4a7de0', '#a8c4f7', '#7da8ef'];
     for (var i = 0; i < 8; i++) {
@@ -27,32 +25,17 @@
     }
   });
 
-  /* ════════════════════════════════════════
-     HOVER: Apple-style subtle paragraph feedback
-     - Only on intro, education, research, honors
-     - NOT on paper-box items (publications/projects
-       keep their own unified highlight)
-  ════════════════════════════════════════ */
-  var textSelectors = [
-    '.cv-block > p',
-    '.cv-block > ul > li',
-    '.cv-block > ol > li'
-  ];
-
-  document.querySelectorAll(textSelectors.join(', ')).forEach(function(el) {
-    if (!el.textContent.trim()) return;
-    // Skip if inside a paper-box
-    if (el.closest('.paper-box')) return;
-
+  /* ── Paragraph hover (intro, research, honors) ── */
+  var textSel = '.cv-block > p, .cv-block > ul > li, .cv-block > ol > li';
+  document.querySelectorAll(textSel).forEach(function(el) {
+    if (!el.textContent.trim() || el.closest('.paper-box')) return;
     el.style.transition = 'transform 0.3s cubic-bezier(.25,.46,.45,.94), background-color 0.3s ease, padding-left 0.3s ease';
     el.style.borderRadius = '4px';
-
     el.addEventListener('mouseenter', function() {
       this.style.transform = 'translateX(2px)';
-      this.style.backgroundColor = 'rgba(99, 148, 231, 0.04)';
+      this.style.backgroundColor = 'rgba(99,148,231,0.04)';
       this.style.paddingLeft = '4px';
     });
-
     el.addEventListener('mouseleave', function() {
       this.style.transform = '';
       this.style.backgroundColor = '';
@@ -60,30 +43,44 @@
     });
   });
 
-  /* ── Paper-box items: subtle unified highlight ── */
-  document.querySelectorAll('.paper-box').forEach(function(box) {
-    box.style.transition = 'background-color 0.3s ease, border-color 0.3s ease';
-    box.style.borderRadius = '10px';
-    box.style.padding = '1.5em 1em';
-
-    box.addEventListener('mouseenter', function() {
-      this.style.backgroundColor = 'rgba(99, 148, 231, 0.03)';
+  /* ── Education & Experience entries ── */
+  document.querySelectorAll('.cv-block div[style*="align-items: flex-start"]').forEach(function(entry) {
+    entry.style.transition = 'transform 0.3s cubic-bezier(.25,.46,.45,.94), background-color 0.3s ease';
+    entry.style.borderRadius = '8px';
+    entry.style.padding = '6px 8px';
+    entry.style.margin = '0 -8px';
+    entry.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(3px)';
+      this.style.backgroundColor = 'rgba(99,148,231,0.05)';
     });
-
-    box.addEventListener('mouseleave', function() {
+    entry.addEventListener('mouseleave', function() {
+      this.style.transform = '';
       this.style.backgroundColor = '';
     });
   });
 
-  /* ── Links: micro translate ── */
+  /* ── Paper-box items (publications/projects): unified highlight ── */
+  document.querySelectorAll('.paper-box').forEach(function(box) {
+    box.style.transition = 'transform 0.3s cubic-bezier(.25,.46,.45,.94), background-color 0.3s ease, box-shadow 0.3s ease';
+    box.style.borderRadius = '10px';
+    box.style.padding = '1.5em 1em';
+    box.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(3px)';
+      this.style.backgroundColor = 'rgba(99,148,231,0.05)';
+      this.style.boxShadow = '0 4px 16px rgba(99,148,231,0.08)';
+    });
+    box.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.backgroundColor = '';
+      this.style.boxShadow = '';
+    });
+  });
+
+  /* ── Links: micro shift ── */
   document.querySelectorAll('.paper-box-text a, .cv-block a').forEach(function(link) {
     link.style.transition = 'transform 0.25s ease';
-    link.addEventListener('mouseenter', function() {
-      this.style.transform = 'translateX(1px)';
-    });
-    link.addEventListener('mouseleave', function() {
-      this.style.transform = '';
-    });
+    link.addEventListener('mouseenter', function() { this.style.transform = 'translateX(1px)'; });
+    link.addEventListener('mouseleave', function() { this.style.transform = ''; });
   });
 
 })();
