@@ -9,6 +9,8 @@
 title                    : "Haoxuan Xu (Harrison)"
 description              : "Personal website of Haoxuan Xu"
 repository               : "HaoxuanXU1024/HaoxuanXU1024.github.io"
+baseurl                  : ""
+url                      : "https://haoxuanxu1024.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -30,7 +32,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=_xV_97wAAAAJ"
   email            : "hxu095@connect.hkust-gz.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://HaoxuanXU1024.github.io/"
+  uri              : "https://haoxuanxu1024.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :
