@@ -19,9 +19,50 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! I am **Haoxuan Xu111 (Harrison, 徐浩轩)**. 
+Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
 I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)).
+
+<div style="display: flex; justify-content: space-between; gap: 20px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/HKUST_Logo.svg/1200px-HKUST_Logo.svg.png" style="width: 24px; margin-right: 12px; margin-top: 3px;">
+      <div>
+        <div style="font-weight: 600;">HKUST(GZ)</div>
+        <div style="font-size: 0.9em; color: #666;">MPhil in Robotics</div>
+        <div style="font-size: 0.8em; color: #999;">2024.9 - 2026.7 (Expected)</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start;">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Shandong_University_logo.svg/1200px-Shandong_University_logo.svg.png" style="width: 24px; margin-right: 12px; margin-top: 3px;">
+      <div>
+        <div style="font-weight: 600;">Shandong University</div>
+        <div style="font-size: 0.9em; color: #666;">B.Eng. in Information Science</div>
+        <div style="font-size: 0.8em; color: #999;">2020.9 - 2024.6</div>
+      </div>
+    </div>
+  </div>
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">💼 Experience</h3>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+      <img src="https://www.dji.com/favicon.ico" style="width: 24px; margin-right: 12px; margin-top: 3px;">
+      <div>
+        <div style="font-weight: 600;">DJI</div>
+        <div style="font-size: 0.9em; color: #666;">Image Algorithm Intern</div>
+        <div style="font-size: 0.8em; color: #999;">2023.11 - 2024.4</div>
+      </div>
+    </div>
+    <div style="display: flex; align-items: flex-start;">
+      <img src="https://www.vivo.com/favicon.ico" style="width: 24px; margin-right: 12px; margin-top: 3px;">
+      <div>
+        <div style="font-weight: 600;">vivo</div>
+        <div style="font-size: 0.9em; color: #666;">Research Intern</div>
+        <div style="font-size: 0.8em; color: #999;">Current</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 # 🚀 Research Interests
 - **Mobile Manipulation**
@@ -34,26 +75,18 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="P3Nav" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [P<sup>3</sup>Nav: End-to-End Perception, Prediction and Plannning for Vision-and-Language Navigation](http://arxiv.org/abs/2603.17459)
 
 **ArXiv Preprint**
 
-**Tianfu Li<sup>\*</sup>**, Wenbo Chen<sup>\*</sup>, Haoxuan Xu<sup>\*</sup>, et al.
+Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, et al.
 
-<!--[**Project**](https://tli794.github.io/homepage/)--> <!--<strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>-->
 - Unified perception, prediction, and planning in a single VLN network, using intermediate modules to sharpen scene understanding and boost navigation accuracy.
 </div>
 </div>
-
-<!--
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
--->
-
-N.B.: **<sup>\*</sup>** indicates equal contribution.
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal</div><img src='https://HaoxuanXU1024.github.io/images/CDCDMA.jpg' alt="CDCDMA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haoxuan Xu (Harrison)"
-description              : "Personal website of Haoxuan Xu"
+description              : ""
 repository               : "HaoxuanXU1024/HaoxuanXU1024.github.io"
 baseurl                  : ""
 url                      : "https://haoxuanxu1024.github.io"
@@ -32,7 +32,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=_xV_97wAAAAJ"
   email            : "hxu095@connect.hkust-gz.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://haoxuanxu1024.github.io/"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
