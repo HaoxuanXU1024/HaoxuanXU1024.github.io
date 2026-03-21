@@ -8,140 +8,110 @@
   if (window.innerWidth <= 768) return;
 
   /* ════════════════════════════════════════
-     State
+     CURSOR: Soft Radial Glow
   ════════════════════════════════════════ */
-  let currentCursorEffect = 'trail';   // trail | glow | none
-  let currentClickEffect  = 'sparkle'; // sparkle | ring | hearts | none
+  const glow = document.createElement('div');
+  glow.style.cssText = `
+    position: fixed; width: 250px; height: 250px; border-radius: 50%;
+    pointer-events: none; z-index: 9998; opacity: 0;
+    transition: opacity 0.4s ease;
+    background: radial-gradient(circle, rgba(99,148,231,0.1) 0%, rgba(99,148,231,0.04) 40%, transparent 70%);
+  `;
+  document.body.appendChild(glow);
+
+  window.addEventListener('mousemove', function(e) {
+    glow.style.left = (e.clientX - 125) + 'px';
+    glow.style.top  = (e.clientY - 125) + 'px';
+    glow.style.opacity = '1';
+  });
+  document.addEventListener('mouseleave', function() { glow.style.opacity = '0'; });
 
   /* ════════════════════════════════════════
-     CURSOR EFFECTS
-  ════════════════════════════════════════ */
-
-  /* ── Trail: a fading ribbon of tiny dots ── */
-  const trailDots = [];
-  const TRAIL_COUNT = 12;
-  for (let i = 0; i < TRAIL_COUNT; i++) {
-    const d = document.createElement('div');
-    d.className = 'trail-dot';
-    d.style.opacity = '0';
-    d.style.background = `hsla(220, 70%, 60%, ${1 - i / TRAIL_COUNT})`;
-    d.style.width = (6 - i * 0.3) + 'px';
-    d.style.height = (6 - i * 0.3) + 'px';
-    document.body.appendChild(d);
-    trailDots.push({ el: d, x: 0, y: 0 });
-  }
-
-  let mouseX = 0, mouseY = 0;
-  window.addEventListener('mousemove', e => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-  });
-
-  function animateTrail() {
-    if (currentCursorEffect === 'trail') {
-      trailDots.forEach((dot, i) => {
-        const prev = i === 0 ? { x: mouseX, y: mouseY } : trailDots[i - 1];
-        dot.x += (prev.x - dot.x) * 0.35;
-        dot.y += (prev.y - dot.y) * 0.35;
-        dot.el.style.left = dot.x + 'px';
-        dot.el.style.top = dot.y + 'px';
-        dot.el.style.opacity = '1';
-      });
-    } else {
-      trailDots.forEach(dot => dot.el.style.opacity = '0');
-    }
-    requestAnimationFrame(animateTrail);
-  }
-  requestAnimationFrame(animateTrail);
-
-  /* ── Glow: a soft radial glow that follows the cursor ── */
-  const glowEl = document.createElement('div');
-  glowEl.style.cssText = 'position:fixed;width:200px;height:200px;border-radius:50%;pointer-events:none;z-index:9998;opacity:0;transition:opacity 0.3s;background:radial-gradient(circle,rgba(99,148,231,0.12) 0%,transparent 70%)';
-  document.body.appendChild(glowEl);
-
-  window.addEventListener('mousemove', e => {
-    glowEl.style.left = (e.clientX - 100) + 'px';
-    glowEl.style.top = (e.clientY - 100) + 'px';
-    glowEl.style.opacity = currentCursorEffect === 'glow' ? '1' : '0';
-  });
-
-  document.addEventListener('mouseleave', () => { glowEl.style.opacity = '0'; });
-
-  /* ════════════════════════════════════════
-     CLICK EFFECTS
+     CLICK: Sparkle Burst
   ════════════════════════════════════════ */
   document.addEventListener('click', function(e) {
-    // Don't fire on the switcher panel buttons
-    if (e.target.closest('#fx-panel')) return;
-
-    if (currentClickEffect === 'sparkle') {
-      for (let i = 0; i < 8; i++) {
-        const s = document.createElement('div');
-        s.className = 'click-spark';
-        const angle = (Math.PI * 2 / 8) * i + (Math.random() - 0.5) * 0.4;
-        const dist = 20 + Math.random() * 25;
-        s.style.left = e.clientX + 'px';
-        s.style.top = e.clientY + 'px';
-        s.style.setProperty('--tx', Math.cos(angle) * dist + 'px');
-        s.style.setProperty('--ty', Math.sin(angle) * dist + 'px');
-        document.body.appendChild(s);
-        setTimeout(() => s.remove(), 600);
-      }
-    }
-
-    if (currentClickEffect === 'ring') {
-      const r = document.createElement('div');
-      r.className = 'click-ring';
-      r.style.left = e.clientX + 'px';
-      r.style.top = e.clientY + 'px';
-      document.body.appendChild(r);
-      setTimeout(() => r.remove(), 600);
-    }
-
-    if (currentClickEffect === 'hearts') {
-      const symbols = ['♥', '✦', '★', '♦'];
-      for (let i = 0; i < 5; i++) {
-        const h = document.createElement('div');
-        h.className = 'click-heart';
-        h.textContent = symbols[Math.floor(Math.random() * symbols.length)];
-        h.style.color = `hsl(${Math.random() * 360}, 70%, 60%)`;
-        const angle = (Math.PI * 2 / 5) * i;
-        const dist = 30 + Math.random() * 20;
-        h.style.left = e.clientX + 'px';
-        h.style.top = e.clientY + 'px';
-        h.style.setProperty('--tx', Math.cos(angle) * dist + 'px');
-        h.style.setProperty('--ty', Math.sin(angle) * dist + 'px');
-        document.body.appendChild(h);
-        setTimeout(() => h.remove(), 800);
-      }
+    const colors = ['#6394e7', '#93b5f5', '#4a7de0', '#a8c4f7', '#7da8ef'];
+    for (let i = 0; i < 8; i++) {
+      const s = document.createElement('div');
+      s.className = 'click-spark';
+      s.style.background = colors[Math.floor(Math.random() * colors.length)];
+      const angle = (Math.PI * 2 / 8) * i + (Math.random() - 0.5) * 0.5;
+      const dist = 18 + Math.random() * 28;
+      s.style.left = e.clientX + 'px';
+      s.style.top  = e.clientY + 'px';
+      s.style.setProperty('--tx', Math.cos(angle) * dist + 'px');
+      s.style.setProperty('--ty', Math.sin(angle) * dist + 'px');
+      document.body.appendChild(s);
+      setTimeout(function() { s.remove(); }, 600);
     }
   });
 
   /* ════════════════════════════════════════
-     HOVER INTERACTION
+     HOVER: Paragraph-level subtle feedback
+     - Individual <p>, <li>, <div> inside content
+       get a gentle rightward shift + soft
+       background highlight on hover
   ════════════════════════════════════════ */
-  document.querySelectorAll('.cv-block, .paper-box').forEach(function(card) {
-    card.style.transition = 'transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s ease';
-    card.addEventListener('mouseenter', function() {
-      this.style.transform = 'translateY(-3px) scale(1.005)';
-      this.style.boxShadow = '0 12px 40px rgba(31, 38, 135, 0.15)';
+
+  // Target interactive text elements within content cards
+  var selectors = [
+    '.cv-block > p',
+    '.cv-block > ul > li',
+    '.cv-block > ol > li',
+    '.paper-box-text > p',
+    '.paper-box-text > ul > li',
+    '.paper-box-text > ol > li',
+    '.paper-box-text > div'
+  ];
+
+  document.querySelectorAll(selectors.join(', ')).forEach(function(el) {
+    // Skip headings and empty elements
+    if (!el.textContent.trim()) return;
+    
+    el.style.transition = 'transform 0.25s cubic-bezier(.25,.8,.25,1), background-color 0.25s ease, border-radius 0.25s ease, padding-left 0.25s ease';
+    el.style.borderRadius = '6px';
+    
+    el.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(4px)';
+      this.style.backgroundColor = 'rgba(99, 148, 231, 0.06)';
+      this.style.paddingLeft = '8px';
     });
-    card.addEventListener('mouseleave', function() {
+    
+    el.addEventListener('mouseleave', function() {
       this.style.transform = '';
-      this.style.boxShadow = '';
+      this.style.backgroundColor = '';
+      this.style.paddingLeft = '';
     });
   });
 
+  // Links: subtle color shift + micro translate
   document.querySelectorAll('.paper-box-text a, .cv-block a').forEach(function(link) {
-    link.style.transition = 'transform 0.2s ease, color 0.2s ease';
-    link.addEventListener('mouseenter', function() { this.style.transform = 'translateX(2px)'; });
-    link.addEventListener('mouseleave', function() { this.style.transform = ''; });
+    link.style.transition = 'transform 0.2s ease, filter 0.2s ease';
+    link.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(2px)';
+      this.style.filter = 'brightness(1.15)';
+    });
+    link.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.filter = '';
+    });
   });
 
-  /* ════════════════════════════════════════
-     EXPOSE TO SWITCHER
-  ════════════════════════════════════════ */
-  window.setCursorFx = function(type) { currentCursorEffect = type; };
-  window.setClickFx  = function(type) { currentClickEffect  = type; };
+  // Education/Experience items: gentle lift within the flex container
+  document.querySelectorAll('.cv-block > div[style*="flex"]').forEach(function(item) {
+    item.style.transition = 'transform 0.25s ease, background-color 0.25s ease';
+    item.style.borderRadius = '8px';
+    item.style.padding = '4px';
+    
+    item.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(3px)';
+      this.style.backgroundColor = 'rgba(99, 148, 231, 0.04)';
+    });
+    item.addEventListener('mouseleave', function() {
+      this.style.transform = '';
+      this.style.backgroundColor = '';
+    });
+  });
+
 })();
 </script>

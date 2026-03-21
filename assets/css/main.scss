@@ -49,11 +49,11 @@ body {
 
 /* ─── Glass Navigation Bar ─── */
 .masthead {
-  background: rgba(255, 255, 255, 0.6) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04) !important;
+  background: rgba(255, 255, 255, 0.65) !important;
+  backdrop-filter: blur(14px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(180%) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.04) !important;
 }
 
 .paper-box {
@@ -62,9 +62,8 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px rgba(200,200,200,0.3) solid;
+    border-bottom: 1px rgba(200,200,200,0.25) solid;
     padding: 2em 0 2em 0;
-    
 
     .paper-box-image{
         justify-content: center;
@@ -73,17 +72,17 @@ body {
         order: 2;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+            box-shadow: 3px 3px 12px rgba(0,0,0,0.1);
             object-fit: cover;
             border-radius: 8px;
         }
     }
-    
+
     .paper-box-text{
         max-width: 100%;
         order: 1;
     }
-    
+
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -91,26 +90,23 @@ body {
             max-width: 40%;
             order: 1;
         }
-        
+
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
             max-width: 60%;
             order: 2;
         }
-
     }
-
-
 }
 
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
     margin-top: -$scroll_offset;
 }
 
@@ -132,65 +128,38 @@ h1:before, .anchor:before {
   margin-bottom: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.08);
 
   h1, h2, h3 {
     margin-top: 0;
   }
 }
 
-/* ─── Click Effects ─── */
-@keyframes sparkle-fly {
-  0% { opacity: 1; transform: translate(0, 0) scale(1); }
-  100% { opacity: 0; transform: translate(var(--tx), var(--ty)) scale(0); }
+/* ─── Glassmorphism Sidebar ─── */
+.sidebar {
+  background: transparent !important;
 }
+
+/* ─── Click Sparkle Animation ─── */
+@keyframes sparkle-fly {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(0);
+  }
+}
+
 .click-spark {
   position: fixed;
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: $info-color;
   pointer-events: none;
   z-index: 9999;
   animation: sparkle-fly 0.5s ease-out forwards;
-}
-
-@keyframes ring-expand {
-  0% { opacity: 0.6; transform: translate(-50%, -50%) scale(0); }
-  100% { opacity: 0; transform: translate(-50%, -50%) scale(1); }
-}
-.click-ring {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid $info-color;
-  pointer-events: none;
-  z-index: 9999;
-  animation: ring-expand 0.5s ease-out forwards;
-}
-
-@keyframes heart-fly {
-  0% { opacity: 1; transform: translate(0, 0) scale(1); }
-  100% { opacity: 0; transform: translate(var(--tx), var(--ty)) scale(0.3); }
-}
-.click-heart {
-  position: fixed;
-  pointer-events: none;
-  z-index: 9999;
-  font-size: 14px;
-  animation: heart-fly 0.7s ease-out forwards;
-}
-
-/* ─── Cursor Trail Dot ─── */
-.trail-dot {
-  position: fixed;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 9998;
-  transition: opacity 0.5s ease;
 }
