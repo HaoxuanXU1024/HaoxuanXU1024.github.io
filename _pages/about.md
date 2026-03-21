@@ -66,7 +66,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">vivo</div>
         <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
-          <span>Research Intern</span>
+          <span>Research Intern supervised by Shuai Ren</span>
           <span style="color: #888;">2026.1 - 2026.3</span>
         </div>
       </div>
@@ -79,7 +79,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">DJI</div>
         <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
-          <span>Image Algorithm Intern</span>
+          <span>Image Algorithm Intern supervised by Liang Yu</span>
           <span style="color: #888;">2023.11 - 2024.4</span>
         </div>
       </div>
