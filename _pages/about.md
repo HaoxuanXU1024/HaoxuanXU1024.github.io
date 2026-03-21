@@ -102,7 +102,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 <span class='anchor' id='publications'></span>
 <div class="cv-block" markdown="1">
-# 📝 Publications
+# 📝 Publications <small style="font-size: 0.5em; font-weight: normal; color: #888;">(† denotes equal contribution)</small>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="P3Nav" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
