@@ -1,44 +1,189 @@
-<div id="theme-switcher-panel" style="position: fixed; bottom: 20px; right: 20px; background: rgba(255,255,255,0.95); padding: 15px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); z-index: 10000; font-size: 13px; border: 1px solid #e0e0e0; backdrop-filter: blur(10px);">
-  <div style="font-weight: 600; margin-bottom: 10px; text-align: center; color: #333; border-bottom: 1px solid #eee; padding-bottom: 5px;">🎨 Live Theme Preview</div>
-  <div style="display: flex; flex-direction: column; gap: 8px;">
-    <button onclick="setTheme('grid')" style="padding: 8px; cursor: pointer; border: 1px solid #d1d5db; border-radius: 6px; background: #fff; color: #4b5563; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='#fff'">1. 致精学术 (Grid)</button>
-    <button onclick="setTheme('canvas')" style="padding: 8px; cursor: pointer; border: 1px solid #d1d5db; border-radius: 6px; background: #fff; color: #4b5563; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='#fff'">2. 简约帆布 (Canvas)</button>
-    <button onclick="setTheme('glass')" style="padding: 8px; cursor: pointer; border: 1px solid #d1d5db; border-radius: 6px; background: #fff; color: #4b5563; font-weight: 500; transition: all 0.2s;" onmouseover="this.style.background='#f3f4f6'" onmouseout="this.style.background='#fff'">3. 现代磨砂 (Glass)</button>
+<div id="theme-switcher-panel">
+  <div class="ts-header">
+    🎨 Theme Preview
+    <span class="ts-close" onclick="document.getElementById('theme-switcher-panel').style.display='none'">✕</span>
+  </div>
+  
+  <div class="ts-section-label">Background</div>
+  <div class="ts-grid">
+    <button class="ts-btn active" onclick="setBg('grid', this)" title="致精学术 · Dot Grid">
+      <span class="ts-preview" style="background:#fdfdfd; background-image:radial-gradient(#ccc 1px, transparent 1px); background-size:6px 6px;"></span>
+      <span class="ts-label">Grid</span>
+    </button>
+    <button class="ts-btn" onclick="setBg('canvas', this)" title="简约帆布 · Warm Canvas">
+      <span class="ts-preview" style="background:#f5f7f9;"></span>
+      <span class="ts-label">Canvas</span>
+    </button>
+    <button class="ts-btn" onclick="setBg('glass', this)" title="现代磨砂 · Soft Gradient">
+      <span class="ts-preview" style="background:linear-gradient(135deg,#e8ecf1 0%,#d5dde8 100%);"></span>
+      <span class="ts-label">Glass</span>
+    </button>
+    <button class="ts-btn" onclick="setBg('blueprint', this)" title="蓝图 · Blueprint">
+      <span class="ts-preview" style="background:#f0f4f8; background-image:linear-gradient(rgba(59,130,246,0.07) 1px,transparent 1px),linear-gradient(90deg,rgba(59,130,246,0.07) 1px,transparent 1px); background-size:20px 20px;"></span>
+      <span class="ts-label">Blueprint</span>
+    </button>
+    <button class="ts-btn" onclick="setBg('crosshatch', this)" title="交叉线 · Crosshatch">
+      <span class="ts-preview" style="background:#fafafa; background-image:linear-gradient(45deg,#eee 25%,transparent 25%,transparent 75%,#eee 75%),linear-gradient(45deg,#eee 25%,transparent 25%,transparent 75%,#eee 75%); background-size:12px 12px; background-position:0 0,6px 6px;"></span>
+      <span class="ts-label">Hatch</span>
+    </button>
+    <button class="ts-btn" onclick="setBg('ocean', this)" title="深海 · Deep Ocean">
+      <span class="ts-preview" style="background:linear-gradient(180deg,#f5f7fa 0%,#e8edf3 50%,#dce3ed 100%);"></span>
+      <span class="ts-label">Ocean</span>
+    </button>
   </div>
 </div>
 
+<style>
+#theme-switcher-panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255,255,255,0.97);
+  padding: 14px;
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+  z-index: 10000;
+  font-size: 12px;
+  border: 1px solid #e5e7eb;
+  backdrop-filter: blur(12px);
+  width: 260px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+.ts-header {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1f2937;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ts-close {
+  cursor: pointer;
+  color: #9ca3af;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+.ts-close:hover { color: #374151; }
+.ts-section-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9ca3af;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.ts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.ts-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  cursor: pointer;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  transition: all 0.2s;
+}
+.ts-btn:hover { border-color: #93c5fd; transform: translateY(-1px); }
+.ts-btn.active { border-color: #3b82f6; box-shadow: 0 0 0 2px rgba(59,130,246,0.15); }
+.ts-preview {
+  width: 100%;
+  height: 28px;
+  border-radius: 6px;
+  border: 1px solid #f3f4f6;
+}
+.ts-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #6b7280;
+}
+</style>
+
 <script>
-  function setTheme(theme) {
+  function setBg(theme, btn) {
+    document.querySelectorAll('.ts-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
     const body = document.body;
     const blocks = document.querySelectorAll('.cv-block');
-    if (theme === 'grid') {
-      body.style.backgroundColor = '#fdfdfd';
-      body.style.backgroundImage = 'radial-gradient(#e5e5e5 1px, transparent 1px)';
-      body.style.backgroundSize = '25px 25px';
-      blocks.forEach(b => {
-        b.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
-        b.style.backdropFilter = 'blur(8px)';
-        b.style.border = '1px solid rgba(225, 228, 232, 0.5)';
-        b.style.boxShadow = '0 8px 32px 0 rgba(31, 38, 135, 0.07)';
-      });
-    } else if (theme === 'canvas') {
-      body.style.backgroundColor = '#f5f7f9';
-      body.style.backgroundImage = 'none';
-      blocks.forEach(b => {
-        b.style.backgroundColor = '#ffffff';
-        b.style.backdropFilter = 'none';
-        b.style.border = '1px solid #e1e4e8';
-        b.style.boxShadow = '0 2px 4px rgba(0,0,0,0.02)';
-      });
-    } else if (theme === 'glass') {
-      body.style.backgroundColor = '#eef2f5';
-      body.style.backgroundImage = 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)';
-      blocks.forEach(b => {
-        b.style.backgroundColor = 'rgba(255, 255, 255, 0.55)';
-        b.style.backdropFilter = 'blur(16px)';
-        b.style.border = '1px solid rgba(255, 255, 255, 0.4)';
-        b.style.boxShadow = '0 8px 32px rgba(31, 38, 135, 0.1)';
-      });
+    
+    const themes = {
+      grid: {
+        bg: '#fdfdfd',
+        bgImg: 'radial-gradient(#e0e0e0 1px, transparent 1px)',
+        bgSize: '25px 25px',
+        card: 'rgba(255,255,255,0.92)',
+        blur: 'blur(8px)',
+        border: '1px solid rgba(225,228,232,0.5)',
+        shadow: '0 8px 32px rgba(31,38,135,0.07)'
+      },
+      canvas: {
+        bg: '#f5f7f9',
+        bgImg: 'none',
+        bgSize: 'auto',
+        card: '#ffffff',
+        blur: 'none',
+        border: '1px solid #e1e4e8',
+        shadow: '0 2px 8px rgba(0,0,0,0.04)'
+      },
+      glass: {
+        bg: '#eaeff4',
+        bgImg: 'linear-gradient(135deg, #f0f4f8 0%, #d5dde8 100%)',
+        bgSize: 'auto',
+        card: 'rgba(255,255,255,0.6)',
+        blur: 'blur(16px)',
+        border: '1px solid rgba(255,255,255,0.5)',
+        shadow: '0 8px 32px rgba(31,38,135,0.1)'
+      },
+      blueprint: {
+        bg: '#f0f4f8',
+        bgImg: 'linear-gradient(rgba(59,130,246,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.08) 1px, transparent 1px)',
+        bgSize: '24px 24px',
+        card: 'rgba(255,255,255,0.95)',
+        blur: 'blur(6px)',
+        border: '1px solid rgba(59,130,246,0.12)',
+        shadow: '0 4px 16px rgba(59,130,246,0.06)'
+      },
+      crosshatch: {
+        bg: '#fafafa',
+        bgImg: 'linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%), linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%)',
+        bgSize: '16px 16px',
+        card: 'rgba(255,255,255,0.93)',
+        blur: 'blur(6px)',
+        border: '1px solid rgba(0,0,0,0.06)',
+        shadow: '0 4px 20px rgba(0,0,0,0.04)'
+      },
+      ocean: {
+        bg: '#f5f7fa',
+        bgImg: 'linear-gradient(180deg, #f5f7fa 0%, #e8edf3 50%, #dce3ed 100%)',
+        bgSize: 'auto',
+        card: 'rgba(255,255,255,0.75)',
+        blur: 'blur(12px)',
+        border: '1px solid rgba(255,255,255,0.6)',
+        shadow: '0 6px 24px rgba(100,120,150,0.08)'
+      }
+    };
+    
+    const t = themes[theme];
+    body.style.backgroundColor = t.bg;
+    body.style.backgroundImage = t.bgImg;
+    body.style.backgroundSize = t.bgSize;
+    if (theme === 'crosshatch') {
+      body.style.backgroundPosition = '0 0, 8px 8px';
+    } else {
+      body.style.backgroundPosition = '';
     }
+    blocks.forEach(b => {
+      b.style.backgroundColor = t.card;
+      b.style.backdropFilter = t.blur;
+      b.style.webkitBackdropFilter = t.blur;
+      b.style.border = t.border;
+      b.style.boxShadow = t.shadow;
+    });
   }
 </script>

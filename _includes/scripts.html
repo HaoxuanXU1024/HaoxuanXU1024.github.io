@@ -3,17 +3,50 @@
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
 
-<div class="mouse-cursor"></div>
 <script>
-  const cursor = document.querySelector('.mouse-cursor');
-  if (window.innerWidth > 768) {
-    window.addEventListener('mousemove', (e) => {
-      cursor.style.opacity = '1';
-      cursor.style.transform = `translate(${e.clientX - 12.5}px, ${e.clientY - 12.5}px)`;
+(function() {
+  if (window.innerWidth <= 768) return;
+
+  /* ─── Click Sparkle Effect ─── */
+  document.addEventListener('click', function(e) {
+    for (let i = 0; i < 6; i++) {
+      const spark = document.createElement('div');
+      spark.className = 'click-spark';
+      const angle = (Math.PI * 2 / 6) * i + Math.random() * 0.5;
+      const dist = 25 + Math.random() * 20;
+      spark.style.left = e.clientX + 'px';
+      spark.style.top = e.clientY + 'px';
+      spark.style.setProperty('--tx', Math.cos(angle) * dist + 'px');
+      spark.style.setProperty('--ty', Math.sin(angle) * dist + 'px');
+      document.body.appendChild(spark);
+      setTimeout(() => spark.remove(), 600);
+    }
+  });
+
+  /* ─── Hover Tilt on Cards ─── */
+  document.querySelectorAll('.cv-block, .paper-box').forEach(function(card) {
+    card.style.transition = 'transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s ease';
+    
+    card.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateY(-3px) scale(1.005)';
+      this.style.boxShadow = '0 12px 40px rgba(31, 38, 135, 0.12)';
     });
     
-    document.addEventListener('mouseleave', () => {
-      cursor.style.opacity = '0';
+    card.addEventListener('mouseleave', function() {
+      this.style.transform = 'translateY(0) scale(1)';
+      this.style.boxShadow = '';
     });
-  }
+  });
+
+  /* ─── Subtle text/link hover glow ─── */
+  document.querySelectorAll('.paper-box-text a, .cv-block a').forEach(function(link) {
+    link.style.transition = 'transform 0.2s ease, color 0.2s ease';
+    link.addEventListener('mouseenter', function() {
+      this.style.transform = 'translateX(2px)';
+    });
+    link.addEventListener('mouseleave', function() {
+      this.style.transform = 'translateX(0)';
+    });
+  });
+})();
 </script>

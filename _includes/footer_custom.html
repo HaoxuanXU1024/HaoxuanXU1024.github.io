@@ -9,18 +9,15 @@
     </span>
   </div>
   
-  <div class="visitor-map" style="margin-top: 15px; display: flex; justify-content: center;">
-    <div style="width: 120px; opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">
-      <!-- Clustrmaps Globe Widget -->
-      <a href="https://clustrmaps.com/site/1c28b" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=tGZ_4852x6Mm-PPomoo98e4y_CI8D9TmioGTO03Daik&cl=ffffff" alt="Visitor Map" style="border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);" /></a>
-    </div>
+  <div class="visitor-map">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=bfKuuDtiAt-30TpkRRy1hb6JLcehga6elyRpse13c-Q&cl=ffffff&w=a"></script>
   </div>
 </div>
 
 <style>
 .custom-footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0 1rem;
   font-size: 0.85rem;
   color: #888;
   border-top: 1px solid #eee;
@@ -31,8 +28,15 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  margin-bottom: 15px;
 }
 .footer-separator {
   color: #ddd;
+}
+.visitor-map {
+  display: flex;
+  justify-content: center;
+  max-width: 350px;
+  margin: 0 auto;
 }
 </style>
