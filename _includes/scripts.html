@@ -2,3 +2,18 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<div class="mouse-cursor"></div>
+<script>
+  const cursor = document.querySelector('.mouse-cursor');
+  if (window.innerWidth > 768) {
+    window.addEventListener('mousemove', (e) => {
+      cursor.style.opacity = '1';
+      cursor.style.transform = `translate(${e.clientX - 12.5}px, ${e.clientY - 12.5}px)`;
+    });
+    
+    document.addEventListener('mouseleave', () => {
+      cursor.style.opacity = '0';
+    });
+  }
+</script>
