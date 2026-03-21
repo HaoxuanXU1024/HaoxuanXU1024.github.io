@@ -25,6 +25,7 @@ Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**.
 I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
 </div>
 
+<span class='anchor' id='education'></span>
 <div class="cv-block" style="display: flex; justify-content: space-between; gap: 30px;">
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
@@ -87,6 +88,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
   </div>
 </div>
 
+<span class='anchor' id='research-interests'></span>
 <div class="cv-block" markdown="1">
 # 🚀 Research Interests
 - **Mobile Manipulation**
@@ -98,6 +100,7 @@ My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Comp
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 </div>
 
+<span class='anchor' id='publications'></span>
 <div class="cv-block" markdown="1">
 # 📝 Publications
 
@@ -167,6 +170,7 @@ Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~
 </div>
 </div>
 
+<span class='anchor' id='projects'></span>
 <div class="cv-block" markdown="1">
 # 🔭 Projects
 
@@ -182,6 +186,7 @@ Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~
 </div>
 </div>
 
+<span class='anchor' id='honors-and-awards'></span>
 <div class="cv-block" markdown="1">
 # 🎖 Honors and Awards
 - **Postgraduate Studentship (PGS) Award**, HKUST(GZ)

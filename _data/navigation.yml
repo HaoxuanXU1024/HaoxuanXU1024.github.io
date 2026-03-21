@@ -3,17 +3,17 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "Education"
+    url: "/#education"
+
+  - title: "Research Interests"
+    url: "/#research-interests"
+
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
   
   - title: "Projects"
-    url: "/#-projects"
+    url: "/#projects"
   
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Internships"
-    url: "/#-internships"
+    url: "/#honors-and-awards"
