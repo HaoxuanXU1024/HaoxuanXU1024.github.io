@@ -158,7 +158,7 @@ Songning Lai, Xifeng Hu, **Haoxuan Xu**, Zhaoxia Ren~ and Zhi Liu~
 
 [MG-KG: Unsupervised video anomaly detection based on motion guidance and knowledge graph](https://www.sciencedirect.com/science/article/pii/S026288562500232X)
 
-**Image and Vision Computing** (JCR Q1, IF:4.7 | CCF-C)
+**Image and Vision Computing** (JCR Q1, IF:4.7, CCF-C)
 
 Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~  
 
