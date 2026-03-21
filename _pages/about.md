@@ -23,42 +23,55 @@ Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**.
 
 I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
 
-<div style="display: flex; justify-content: space-between; gap: 20px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
+<div style="display: flex; justify-content: space-between; gap: 30px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
-    <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/HKUST_Logo.svg/1200px-HKUST_Logo.svg.png" style="width: 24px; margin-right: 12px; margin-top: 3px;">
-      <div>
-        <div style="font-weight: 600;">HKUST(GZ)</div>
-        <div style="font-size: 0.9em; color: #666;">MPhil in Robotics</div>
-        <div style="font-size: 0.8em; color: #999;">2024.9 - 2026.7 (Expected)</div>
+    
+    <div style="margin-bottom: 15px;">
+      <div style="display: flex; align-items: center; margin-bottom: 4px;">
+        <img src="https://HaoxuanXU1024.github.io/images/hkust.png" style="height: 22px; margin-right: 8px;">
+        <span style="font-weight: 600; font-size: 1.05em;">HKUST(GZ)</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
+        <span>MPhil in Robotics and AI</span>
+        <span>2024.9 - 2026.7 (Expected)</span>
       </div>
     </div>
-    <div style="display: flex; align-items: flex-start;">
-      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Shandong_University_logo.svg/1200px-Shandong_University_logo.svg.png" style="width: 24px; margin-right: 12px; margin-top: 3px;">
-      <div>
-        <div style="font-weight: 600;">Shandong University</div>
-        <div style="font-size: 0.9em; color: #666;">B.Eng. in Information Science</div>
-        <div style="font-size: 0.8em; color: #999;">2020.9 - 2024.6</div>
+
+    <div style="margin-bottom: 0;">
+      <div style="display: flex; align-items: center; margin-bottom: 4px;">
+        <img src="https://HaoxuanXU1024.github.io/images/SDU.jpg" style="height: 22px; margin-right: 8px;">
+        <span style="font-weight: 600; font-size: 1.05em;">Shandong University</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
+        <span>B.Eng. in Communication Engineering (通信工程学士)</span>
+        <span>2020.9 - 2024.6</span>
       </div>
     </div>
   </div>
+
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">💼 Experience</h3>
-    <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
-      <img src="https://www.dji.com/favicon.ico" style="width: 24px; margin-right: 12px; margin-top: 3px;">
-      <div>
-        <div style="font-weight: 600;">DJI</div>
-        <div style="font-size: 0.9em; color: #666;">Image Algorithm Intern</div>
-        <div style="font-size: 0.8em; color: #999;">2023.11 - 2024.4</div>
+
+    <div style="margin-bottom: 15px;">
+      <div style="display: flex; align-items: center; margin-bottom: 4px;">
+        <img src="https://HaoxuanXU1024.github.io/images/vivo.png" style="height: 22px; margin-right: 8px;">
+        <span style="font-weight: 600; font-size: 1.05em;">vivo</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
+        <span>Research Intern</span>
+        <span>2026.1 - 2026.3</span>
       </div>
     </div>
-    <div style="display: flex; align-items: flex-start;">
-      <img src="https://www.vivo.com/favicon.ico" style="width: 24px; margin-right: 12px; margin-top: 3px;">
-      <div>
-        <div style="font-weight: 600;">vivo</div>
-        <div style="font-size: 0.9em; color: #666;">Research Intern</div>
-        <div style="font-size: 0.8em; color: #999;">Current</div>
+
+    <div style="margin-bottom: 0;">
+      <div style="display: flex; align-items: center; margin-bottom: 4px;">
+        <img src="https://HaoxuanXU1024.github.io/images/dji.ico" style="height: 22px; margin-right: 8px;">
+        <span style="font-weight: 600; font-size: 1.05em;">DJI</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
+        <span>Image Algorithm Intern</span>
+        <span>2023.11 - 2024.4</span>
       </div>
     </div>
   </div>
@@ -93,7 +106,7 @@ Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, et al.
 
 [Cross-domain Car Detection Model with Integrated Convolutional Block Attention Mechanism](https://www.sciencedirect.com/science/article/pii/S0262885623002081)
 
-**Image and Vision Computing** (JCR Q1, IF:4.7 | CCF-C)
+**Image and Vision Computing** (JCR Q1, IF:4.7, CCF-C)
 
 **Haoxuan Xu†**, Songnung Lai†, Yang Yang~  
 
