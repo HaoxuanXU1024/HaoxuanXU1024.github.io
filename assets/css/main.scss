@@ -107,3 +107,16 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.cv-block {
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid $border-color;
+  background-color: mix($background-color, $border-color, 95%);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+}

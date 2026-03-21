@@ -19,11 +19,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div class="cv-block" markdown="1">
 Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
 I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+</div>
 
-<div style="display: flex; justify-content: space-between; gap: 30px; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); margin-bottom: 25px;">
+<div class="cv-block" style="display: flex; justify-content: space-between; gap: 30px;">
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
     
@@ -77,6 +79,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
   </div>
 </div>
 
+<div class="cv-block" markdown="1">
 # 🚀 Research Interests
 - **Mobile Manipulation**
 - **Vision and Language Navigation**
@@ -85,7 +88,9 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Computer Vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
+</div>
 
+<div class="cv-block" markdown="1">
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="P3Nav" width="100%"></div></div>
@@ -152,7 +157,9 @@ Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~
 - Addresses spatio-temporal linkage and interpretability in VAD by unifying motion-guided prediction with knowledge-graph retrieval.
 </div>
 </div>
+</div>
 
+<div class="cv-block" markdown="1">
 # 🔭 Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RBM Project</div><img src='https://HaoxuanXU1024.github.io/images/667.gif' alt="Service Robot" width="100%"></div></div>
@@ -165,14 +172,12 @@ Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~
 - Deployed on Songling chassis for sim-to-real transition.
 </div>
 </div>
+</div>
 
+<div class="cv-block" markdown="1">
 # 🎖 Honors and Awards
 - **Postgraduate Studentship (PGS) Award**, HKUST(GZ)
 - **First Prize**, National College Student Mathematical Modeling Competition (Shandong Province)
 - **Second Prize**, 14th National College Student Mathematics Competition
 - **Outstanding Graduate**, Shandong University
-
-# 💻 Internships
-- **Image Algorithm Intern**, [DJI](https://www.dji.com/cn), 2023.11 – 2024.4
-- **Research Intern**, KAUST, 2023.12 – 2024.03
-- **Outstanding Volunteer**, Shandong University (over 200h)
+</div>

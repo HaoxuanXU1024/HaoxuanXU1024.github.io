@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Haoxuan Xu (Harrison, 徐浩轩)"
+  name             : "Haoxuan Xu"
   avatar           : "images/haoxuan.jpg"   # "images/android-chrome-512x512.png"
   bio              : "MPhil student at HKUST(Guangzhou)"
   location         : "Guangzhou, China"
