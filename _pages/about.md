@@ -27,53 +27,61 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 
 <div class="cv-block" style="display: flex; justify-content: space-between; gap: 30px;">
   <div style="flex: 1;">
-    <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
+    <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
     
-    <div style="margin-bottom: 15px;">
-      <div style="display: flex; align-items: center; margin-bottom: 4px;">
-        <img src="https://HaoxuanXU1024.github.io/images/hkust.png" style="height: 22px; margin-right: 8px;">
-        <span style="font-weight: 600; font-size: 1.05em;">HKUST(GZ)</span>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img src="https://HaoxuanXU1024.github.io/images/hkust.png" style="height: 22px; width: auto;">
       </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
-        <span>MPhil in Robotics and AI</span>
-        <span>2024.9 - 2026.7 (Expected)</span>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST(GZ)</div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
+          <span>MPhil in Robotics and AI</span>
+          <span style="color: #888;">2024.9 - 2026.7 (Expected)</span>
+        </div>
       </div>
     </div>
 
-    <div style="margin-bottom: 0;">
-      <div style="display: flex; align-items: center; margin-bottom: 4px;">
-        <img src="https://HaoxuanXU1024.github.io/images/SDU.jpg" style="height: 22px; margin-right: 8px;">
-        <span style="font-weight: 600; font-size: 1.05em;">Shandong University</span>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 0;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img src="https://HaoxuanXU1024.github.io/images/SDU.jpg" style="height: 22px; width: auto;">
       </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
-        <span>B.Eng. in Communication Engineering (通信工程学士)</span>
-        <span>2020.9 - 2024.6</span>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">Shandong University</div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
+          <span>B.Eng. in Communication Engineering</span>
+          <span style="color: #888;">2020.9 - 2024.6</span>
+        </div>
       </div>
     </div>
   </div>
 
   <div style="flex: 1;">
-    <h3 style="margin-top: 0; margin-bottom: 15px; font-size: 1.2em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">💼 Experience</h3>
+    <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">💼 Experience</h3>
 
-    <div style="margin-bottom: 15px;">
-      <div style="display: flex; align-items: center; margin-bottom: 4px;">
-        <img src="https://HaoxuanXU1024.github.io/images/vivo.png" style="height: 22px; margin-right: 8px;">
-        <span style="font-weight: 600; font-size: 1.05em;">vivo</span>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img src="https://HaoxuanXU1024.github.io/images/vivo.ico" style="height: 22px; width: auto;">
       </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
-        <span>Research Intern</span>
-        <span>2026.1 - 2026.3</span>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">vivo</div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
+          <span>Research Intern</span>
+          <span style="color: #888;">2026.1 - 2026.3</span>
+        </div>
       </div>
     </div>
 
-    <div style="margin-bottom: 0;">
-      <div style="display: flex; align-items: center; margin-bottom: 4px;">
-        <img src="https://HaoxuanXU1024.github.io/images/dji.ico" style="height: 22px; margin-right: 8px;">
-        <span style="font-weight: 600; font-size: 1.05em;">DJI</span>
+    <div style="display: flex; align-items: flex-start; margin-bottom: 0;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img src="https://HaoxuanXU1024.github.io/images/dji.ico" style="height: 22px; width: auto;">
       </div>
-      <div style="display: flex; justify-content: space-between; font-size: 0.9em; color: #555;">
-        <span>Image Algorithm Intern</span>
-        <span>2023.11 - 2024.4</span>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">DJI</div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
+          <span>Image Algorithm Intern</span>
+          <span style="color: #888;">2023.11 - 2024.4</span>
+        </div>
       </div>
     </div>
   </div>
