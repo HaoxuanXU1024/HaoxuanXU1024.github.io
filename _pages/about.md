@@ -22,7 +22,7 @@ redirect_from:
 <div class="cv-block" markdown="1">
 Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
-I am an incoming PhD student at the Intelligent Graphics Lab, Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I am currently completing my MPhil in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+I am an incoming PhD student at the Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I am currently completing my MPhil in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
 </div>
 
 <span class='anchor' id='education'></span>
@@ -37,7 +37,7 @@ I am an incoming PhD student at the Intelligent Graphics Lab, Hong Kong Universi
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST</div>
         <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.95em; color: #555;">
-          <span>PhD in Computer Science and Engineering</span>
+          <span>PhD in <a href="https://github.com/IGL-HKUST">Intelligent Graphics Lab</a></span>
           <span style="color: #888; white-space: nowrap;">2026.8 (Incoming)</span>
         </div>
       </div>
@@ -136,7 +136,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **ArXiv Preprint**
 
-**Haoxuan Xu**, Tianfu Li, Wenbo Chen, Yi Liu, Jin Wu, Huashuo Lei, Yunfan Lou, Lujia Wang, Hesheng Wang, Haoang Li
+**Haoxuan Xu†**, Tianfu Li†, Wenbo Chen, Yi Liu, Jin Wu, Huashuo Lei, Yunfan Lou, Lujia Wang, Hesheng Wang, Haoang Li
 
 - Introduces a human-centric VLN framework that combines geometric human motion forecasting with semantic intention understanding for socially aware navigation.
 </div>
@@ -201,7 +201,7 @@ Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, Xinhu Zheng, Haoang Li
 
 **ArXiv Preprint**
 
-**Haoxuan Xu**, Yi Liu, Tianfu Li, Ruolin Shen, Boyuan Jiang, Jinlong Peng, Donghao Luo, Xiaobin Hu, Shuicheng Yan, Haoang Li
+**Haoxuan Xu†**, Yi Liu†, Tianfu Li, Ruolin Shen, Boyuan Jiang, Jinlong Peng, Donghao Luo, Xiaobin Hu, Shuicheng Yan, Haoang Li
 
 - Adapts GRPO-based post-training to image restoration with data-oriented sampling and reward-oriented optimization for stronger in-domain and OOD restoration.
 </div>
@@ -214,7 +214,7 @@ Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, Xinhu Zheng, Haoang Li
 
 **Image and Vision Computing** (JCR Q1, IF:4.7, CCF-C)
 
-**Haoxuan Xu†**, Songnung Lai†, Yang Yang~  
+**Haoxuan Xu†**, Songnung Lai†, Yang Yang
 
 - Proposed a complete cross-domain detection framework with an integrated CBAM architecture and GIOU loss optimization.
 </div>
@@ -227,7 +227,7 @@ Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, Xinhu Zheng, Haoang Li
 
 **International Journal of Disaster Risk Science** (JCR Q1 (IF: 5.0))
 
-Mengfan Shen, **Haoxuan Xu**, Hongbing Liu and Ziqiang Han~  
+Mengfan Shen, **Haoxuan Xu**, Hongbing Liu and Ziqiang Han
 
 - Applied topic modeling and sentiment analysis to Weibo posts, identifying key themes and public emotions during international disaster response.
 </div>
@@ -240,7 +240,7 @@ Mengfan Shen, **Haoxuan Xu**, Hongbing Liu and Ziqiang Han~
 
 **Displays** (JCR Q1 (IF: 4.3))
 
-Songning Lai, Xifeng Hu, **Haoxuan Xu**, Zhaoxia Ren~ and Zhi Liu~  
+Songning Lai, Xifeng Hu, **Haoxuan Xu**, Zhaoxia Ren and Zhi Liu
 
 - Provides a comprehensive overview of multimodal sentiment analysis, covering its history, datasets, advanced models, and future prospects.
 </div>
@@ -253,7 +253,7 @@ Songning Lai, Xifeng Hu, **Haoxuan Xu**, Zhaoxia Ren~ and Zhi Liu~
 
 **Image and Vision Computing** (JCR Q1, IF:4.7, CCF-C)
 
-Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang~  
+Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang
 
 - Addresses spatio-temporal linkage and interpretability in VAD by unifying motion-guided prediction with knowledge-graph retrieval.
 </div>
