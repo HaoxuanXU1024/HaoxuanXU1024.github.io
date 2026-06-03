@@ -22,17 +22,30 @@ redirect_from:
 <div class="cv-block" markdown="1">
 Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
-I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+I am an incoming PhD student at the Intelligent Graphics Lab, Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I am currently completing my MPhil in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
 </div>
 
 <span class='anchor' id='education'></span>
-<div class="cv-block" style="display: flex; justify-content: space-between; gap: 30px;">
+<div class="cv-block cv-two-column">
   <div style="flex: 1;">
     <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 1.25em; border-bottom: 2px solid #f3f4f6; padding-bottom: 8px;">🎓 Education</h3>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img class="org-logo" src="https://HaoxuanXU1024.github.io/images/hkust.png" alt="HKUST">
+      </div>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST</div>
+        <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.95em; color: #555;">
+          <span>PhD in Computer Science and Engineering</span>
+          <span style="color: #888; white-space: nowrap;">2026.8 (Incoming)</span>
+        </div>
+      </div>
+    </div>
     
     <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
       <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
-        <img src="https://HaoxuanXU1024.github.io/images/hkust.png" style="height: 22px; width: auto;">
+        <img class="org-logo" src="https://HaoxuanXU1024.github.io/images/hkust.png" alt="HKUST(GZ)">
       </div>
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST(GZ)</div>
@@ -45,7 +58,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 
     <div style="display: flex; align-items: flex-start; margin-bottom: 0;">
       <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
-        <img src="https://HaoxuanXU1024.github.io/images/SDU.jpg" style="height: 22px; width: auto;">
+        <img class="org-logo" src="https://HaoxuanXU1024.github.io/images/SDU.jpg" alt="Shandong University">
       </div>
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">Shandong University</div>
@@ -62,7 +75,20 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 
     <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
       <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
-        <img src="https://HaoxuanXU1024.github.io/images/vivo.ico" style="height: 22px; width: auto;">
+        <img class="org-logo org-logo-wide" src="https://HaoxuanXU1024.github.io/images/ace.png" alt="ACE Robotics">
+      </div>
+      <div style="flex-grow: 1;">
+        <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">ACE Robotics</div>
+        <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.95em; color: #555;">
+          <span>Research Intern advised by <a href="https://ethan7899.github.io/">Liang Pan</a></span>
+          <span style="color: #888; white-space: nowrap;">2026.4 - Present</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; margin-bottom: 18px;">
+      <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
+        <img class="org-logo" src="https://HaoxuanXU1024.github.io/images/vivo.ico" alt="vivo">
       </div>
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">vivo</div>
@@ -75,7 +101,7 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 
     <div style="display: flex; align-items: flex-start; margin-bottom: 0;">
       <div style="width: 35px; flex-shrink: 0; display: flex; justify-content: center; margin-right: 12px; padding-top: 2px;">
-        <img src="https://HaoxuanXU1024.github.io/images/dji.ico" style="height: 22px; width: auto;">
+        <img class="org-logo" src="https://HaoxuanXU1024.github.io/images/dji.ico" alt="DJI">
       </div>
       <div style="flex-grow: 1;">
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">DJI</div>
@@ -91,11 +117,10 @@ I am an MPhil student in System Hub/ROAS Trust at the Hong Kong University of Sc
 <span class='anchor' id='research-interests'></span>
 <div class="cv-block" markdown="1">
 # 🚀 Research Interests
-- **Mobile Manipulation**
-- **Vision and Language Navigation**
+- **Embodied Intelligence**
 - **Computer Vision**
 
-My research interests lie in ​Vision-and-Language Navigation (VLN)​ and Computer Vision, with a focus on ​embodied AI for service robotics. ​Currently, I work on bridging advanced machine learning techniques with real-world applications, particularly in developing ​adaptive navigation systems​ that interpret natural language instructions and dynamic environments.
+My research interests lie in embodied intelligence and computer vision, especially perception, reasoning, and policy learning for agents operating in dynamic real-world environments.
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
 </div>
@@ -104,16 +129,81 @@ If you are interested in any aspect of me, I am always open to discussions and c
 <div class="cv-block" markdown="1">
 # 📝 Publications <small style="font-size: 0.5em; font-weight: normal; color: #888;">(† denotes equal contribution)</small>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="P3Nav" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/hcsg.png' alt="HCSG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[P<sup>3</sup>Nav: End-to-End Perception, Prediction and Plannning for Vision-and-Language Navigation](http://arxiv.org/abs/2603.17459)
+[HCSG: Human-Centric Semantic-Geometric Reasoning for Vision-Language Navigation](https://arxiv.org/abs/2605.13321)
 
 **ArXiv Preprint**
 
-Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, et al.
+**Haoxuan Xu**, Tianfu Li, Wenbo Chen, Yi Liu, Jin Wu, Huashuo Lei, Yunfan Lou, Lujia Wang, Hesheng Wang, Haoang Li
+
+- Introduces a human-centric VLN framework that combines geometric human motion forecasting with semantic intention understanding for socially aware navigation.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='https://HaoxuanXU1024.github.io/images/mask_world_model.png' alt="Mask World Model" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Mask World Model: Predicting What Matters for Robust Robot Policy Learning](https://arxiv.org/abs/2604.19683)
+
+**ICML 2026**
+
+Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, Rongyu Zhang, Yaoxu Lyu, Guoyu Song, Chuyao Fu, **Haoxuan Xu**, Pengwei Wang, Shanghang Zhang
+
+- Learns predictive world models over semantic masks rather than raw pixels, improving robot policy robustness to visual distractions and distribution shifts.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><video src='https://HaoxuanXU1024.github.io/images/ggd_slam_demo.mp4' poster='https://HaoxuanXU1024.github.io/images/ggd_slam_poster.png' width="100%" autoplay muted loop playsinline controls></video></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments](https://arxiv.org/abs/2604.12837)
+
+**ICRA 2026**
+
+Yi Liu, **Haoxuan Xu**, Hongbo Duan, Keyu Fan, Zhengyang Zhang, Peiyu Zhuang, Pengting Luo, Houde Liu
+
+- Builds a monocular 3D Gaussian Splatting SLAM system for dynamic scenes by separating static mapping cues from dynamic distractors.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/p3nav.png' alt="P3Nav" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[P<sup>3</sup>Nav: End-to-End Perception, Prediction and Planning for Vision-and-Language Navigation](https://arxiv.org/abs/2603.17459)
+
+**ArXiv Preprint**
+
+Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, Xinhu Zheng, Haoang Li
 
 - Unified perception, prediction, and planning in a single VLN network, using intermediate modules to sharpen scene understanding and boost navigation accuracy.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/ekg_vln.png' alt="Event Knowledge VLN" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enhancing Vision-Language Navigation with Multimodal Event Knowledge from Real-World Indoor Tour Videos](https://arxiv.org/abs/2602.23937)
+
+**ArXiv Preprint**
+
+**Haoxuan Xu**, Tianfu Li, Wenbo Chen, Yi Liu, Xingxing Zuo, Yaoxian Song, Haoang Li
+
+- Constructs multimodal event knowledge from real-world indoor tour videos and injects it into VLN agents for long-horizon reasoning.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/irpo.png' alt="IRPO" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[IRPO: Boosting Image Restoration via Post-training GRPO](https://arxiv.org/abs/2512.00814)
+
+**ArXiv Preprint**
+
+**Haoxuan Xu**, Yi Liu, Tianfu Li, Ruolin Shen, Boyuan Jiang, Jinlong Peng, Donghao Luo, Xiaobin Hu, Shuicheng Yan, Haoang Li
+
+- Adapts GRPO-based post-training to image restoration with data-oriented sampling and reward-oriented optimization for stronger in-domain and OOD restoration.
 </div>
 </div>
 

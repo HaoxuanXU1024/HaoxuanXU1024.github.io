@@ -1,0 +1,19 @@
+{
+  "name": "Haoxuan Xu",
+  "short_name": "Haoxuan Xu",
+  "icons": [
+    {
+      "src": "/images/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/site-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
