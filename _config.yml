@@ -25,8 +25,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Haoxuan Xu"
   avatar           : "images/haoxuan.jpg"   # "images/android-chrome-512x512.png"
-  bio              : "Incoming PhD student at HKUST"
-  location         : "Hong Kong / Guangzhou, China"
+  bio              : "First-year PhD student at HKUST"
+  location         : "Hong Kong"
   employer         : "HKUST"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=_xV_97wAAAAJ"

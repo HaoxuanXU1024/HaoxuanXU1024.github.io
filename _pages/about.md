@@ -22,7 +22,21 @@ redirect_from:
 <div class="cv-block" markdown="1">
 Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
-I am an incoming PhD student at the Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I am currently completing my MPhil in System Hub/ROAS Trust at the Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my undergraduate degree from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+I am a first-year PhD student at the Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I received my MPhil from HKUST (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage), and my B.Eng. from Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+</div>
+
+<span class='anchor' id='news'></span>
+<div class="cv-block news-block">
+  <h3 id="news-heading">📰 News</h3>
+  <div class="news-scroll" role="region" aria-labelledby="news-heading" tabindex="0">
+    <ul class="news-list">
+      <li><time datetime="2026-09">2026.09</time><span>Two papers (first / co-first author) accepted to <strong>NeurIPS 2026</strong>.</span></li>
+      <li><time datetime="2026-09">2026.09</time><span>Started my PhD at <strong>HKUST</strong>, advised by Prof. Yuan Liu.</span></li>
+      <li><time datetime="2026-06">2026.06</time><span>One co-first-author paper accepted to <strong>IROS 2026</strong>.</span></li>
+      <li><time datetime="2026-04">2026.04</time><span>One paper accepted to <strong>ICML 2026</strong>.</span></li>
+      <li><time datetime="2026-01">2026.01</time><span>One paper accepted to <strong>ICRA 2026</strong>.</span></li>
+    </ul>
+  </div>
 </div>
 
 <span class='anchor' id='education'></span>
@@ -38,7 +52,7 @@ I am an incoming PhD student at the Hong Kong University of Science and Technolo
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST</div>
         <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.95em; color: #555;">
           <span>PhD in <a href="https://github.com/IGL-HKUST">Intelligent Graphics Lab</a></span>
-          <span style="color: #888; white-space: nowrap;">2026.8 (Incoming)</span>
+          <span style="color: #888; white-space: nowrap;">2026.9 - Present</span>
         </div>
       </div>
     </div>
@@ -51,7 +65,7 @@ I am an incoming PhD student at the Hong Kong University of Science and Technolo
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">HKUST(GZ)</div>
         <div style="display: flex; justify-content: space-between; font-size: 0.95em; color: #555;">
           <span>MPhil in Robotics and AI</span>
-          <span style="color: #888;">2024.9 - 2026.7 (Expected)</span>
+          <span style="color: #888;">2024.9 - 2026.7</span>
         </div>
       </div>
     </div>
@@ -81,7 +95,7 @@ I am an incoming PhD student at the Hong Kong University of Science and Technolo
         <div style="font-weight: 600; font-size: 1.1em; margin-bottom: 2px;">ACE Robotics</div>
         <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.95em; color: #555;">
           <span>Research Intern advised by <a href="https://ethan7899.github.io/">Liang Pan</a></span>
-          <span style="color: #888; white-space: nowrap;">2026.4 - Present</span>
+          <span style="color: #888; white-space: nowrap;">2026.4 - 2026.8</span>
         </div>
       </div>
     </div>
@@ -283,4 +297,10 @@ Qiyue Sun, Yang Yang, **Haoxuan Xu**, Zezhou Li, Yunxia Liu and Hongjun Wang
 - **First Prize**, National College Student Mathematical Modeling Competition (Shandong Province)
 - **Second Prize**, 14th National College Student Mathematics Competition
 - **Outstanding Graduate**, Shandong University
+</div>
+
+<span class='anchor' id='service'></span>
+<div class="cv-block service-block">
+  <h3>🤝 Service</h3>
+  <p><strong>Reviewer:</strong> ICLR, ICRA, AAAI, and IEEE Robotics and Automation Letters (RA-L).</p>
 </div>
