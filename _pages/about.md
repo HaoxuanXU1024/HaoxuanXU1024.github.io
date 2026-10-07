@@ -22,7 +22,7 @@ redirect_from:
 <div class="cv-block" markdown="1">
 Hi! I am **Haoxuan Xu (Harrison, 徐浩轩)**. 
 
-I am a first-year PhD student at the Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/). I received my MPhil from HKUST (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage), and my B.Eng. from Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm).
+I am a first-year PhD student at the Hong Kong University of Science and Technology (HKUST), advised by [Prof. Yuan Liu](https://liuyuan-pal.github.io/) in the [Intelligent Graphics Lab](https://github.com/IGL-HKUST). I received my MPhil in Robotics and AI from HKUST (Guangzhou), advised by [Prof. Haoang Li](https://sites.google.com/view/haoangli/homepage). Previously, I earned my B.Eng. from the School of Information Science and Engineering at Shandong University ([Chongxin College](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), advised by [Prof. Yang Yang](https://faculty.sdu.edu.cn/yangyang/zh_CN/index.htm). My research focuses on embodied intelligence and computer vision, with an emphasis on perception, reasoning, and policy learning in dynamic real-world environments.
 </div>
 
 <span class='anchor' id='news'></span>
