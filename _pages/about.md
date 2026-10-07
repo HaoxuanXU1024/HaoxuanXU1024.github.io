@@ -136,12 +136,38 @@ I am a first-year PhD student at the Hong Kong University of Science and Technol
 
 My research interests lie in embodied intelligence and computer vision, especially perception, reasoning, and policy learning for agents operating in dynamic real-world environments.
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - hxu095 [at] connect.hkust-gz.edu.cn
+If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at haoxuan.xu [at] connect.ust.hk.
 </div>
 
 <span class='anchor' id='publications'></span>
 <div class="cv-block" markdown="1">
 # 📝 Publications <small style="font-size: 0.5em; font-weight: normal; color: #888;">(† denotes equal contribution)</small>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='{{ "/images/mvg_wam.png" | relative_url }}' alt="MVG-WAM geometry-aware world-action modeling framework" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MVG-WAM: Multiple View Geometry-Aware World-Action Modeling for Robotic Manipulation](https://arxiv.org/abs/2609.37793)
+
+**ArXiv Preprint** · [Project & Demos](https://bobc-123.github.io/MVG-WAM/)
+
+Wenbo Chen†, Tianfu Li†, **Haoxuan Xu†**, et al.
+
+- Integrates explicit multi-view geometry into world-action modeling for robust robotic manipulation.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='{{ "/images/slip_vla.png" | relative_url }}' alt="SLIP-VLA overview: single-step latent imagination and robot manipulation results" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SLIP-VLA: Single-Step Latent Imagination for Policy Learning in Vision-Language-Action Models](https://arxiv.org/abs/2609.33575)
+
+**ArXiv Preprint** · [Project & Demos](https://haoxuanxu1024.github.io/SLIP_VLA/)
+
+Tianfu Li†, **Haoxuan Xu†**, Wenbo Chen†, et al.
+
+- Uses single-step future latent imagination to guide efficient, future-aware robot policy learning.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='https://HaoxuanXU1024.github.io/images/hcsg.png' alt="HCSG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -150,7 +176,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **ArXiv Preprint**
 
-**Haoxuan Xu†**, Tianfu Li†, Wenbo Chen, Yi Liu, Jin Wu, Huashuo Lei, Yunfan Lou, Lujia Wang, Hesheng Wang, Haoang Li
+**Haoxuan Xu†**, Tianfu Li†, Wenbo Chen, et al.
 
 - Introduces a human-centric VLN framework that combines geometric human motion forecasting with semantic intention understanding for socially aware navigation.
 </div>
@@ -163,7 +189,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 **ICML 2026**
 
-Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, Zezhong Qian, Chengxuan Li, Rongyu Zhang, Yaoxu Lyu, Guoyu Song, Chuyao Fu, **Haoxuan Xu**, Pengwei Wang, Shanghang Zhang
+Yunfan Lou, Xiaowei Chi, Xiaojie Zhang, …, **Haoxuan Xu**, et al.
 
 - Learns predictive world models over semantic masks rather than raw pixels, improving robot policy robustness to visual distractions and distribution shifts.
 </div>
@@ -215,7 +241,7 @@ Tianfu Li†, Wenbo Chen†, **Haoxuan Xu†**, Xinhu Zheng, Haoang Li
 
 **ArXiv Preprint**
 
-**Haoxuan Xu†**, Yi Liu†, Tianfu Li, Ruolin Shen, Boyuan Jiang, Jinlong Peng, Donghao Luo, Xiaobin Hu, Shuicheng Yan, Haoang Li
+**Haoxuan Xu†**, Yi Liu†, Tianfu Li, et al.
 
 - Adapts GRPO-based post-training to image restoration with data-oriented sampling and reward-oriented optimization for stronger in-domain and OOD restoration.
 </div>
