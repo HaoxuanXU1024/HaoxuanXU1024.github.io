@@ -192,7 +192,8 @@ h1:before, .anchor:before {
 }
 
 .news-scroll {
-  max-height: 7.5rem;
+  // Show about 3.5 single-line entries, leaving the next entry partly visible.
+  max-height: calc(4.76em + 1.75rem);
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #b7c2cf transparent;
