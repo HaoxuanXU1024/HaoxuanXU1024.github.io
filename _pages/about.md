@@ -30,11 +30,11 @@ I am a first-year PhD student at the Hong Kong University of Science and Technol
   <h3 id="news-heading">📰 News</h3>
   <div class="news-scroll" role="region" aria-labelledby="news-heading" tabindex="0">
     <ul class="news-list">
-      <li><time datetime="2026-09">2026.09</time><span>Two papers (first / co-first author) accepted to <strong>NeurIPS 2026</strong>.</span></li>
-      <li><time datetime="2026-09">2026.09</time><span>Started my PhD at <strong>HKUST</strong>, advised by Prof. Yuan Liu.</span></li>
-      <li><time datetime="2026-06">2026.06</time><span>One co-first-author paper accepted to <strong>IROS 2026</strong>.</span></li>
-      <li><time datetime="2026-04">2026.04</time><span>One paper accepted to <strong>ICML 2026</strong>.</span></li>
-      <li><time datetime="2026-01">2026.01</time><span>One paper accepted to <strong>ICRA 2026</strong>.</span></li>
+      <li><time datetime="2026-09">2026.09&nbsp;</time><span>Two papers (first / co-first author) accepted to <strong>NeurIPS 2026</strong>.</span></li>
+      <li><time datetime="2026-09">2026.09&nbsp;</time><span>Started my PhD at <strong>HKUST</strong>, advised by Prof. Yuan Liu.</span></li>
+      <li><time datetime="2026-06">2026.06&nbsp;</time><span>One co-first-author paper accepted to <strong>IROS 2026</strong>.</span></li>
+      <li><time datetime="2026-04">2026.04&nbsp;</time><span>One paper accepted to <strong>ICML 2026</strong>.</span></li>
+      <li><time datetime="2026-01">2026.01&nbsp;</time><span>One paper accepted to <strong>ICRA 2026</strong>.</span></li>
     </ul>
   </div>
 </div>
